@@ -7,4 +7,3 @@
 - 📫 Feel free to reach me by mail casablanque@proton.me 
 - 🌍 North Carolina, Moscow, Kuala Lumpur
 - ⚡ Fun fact: pen pals with Shia LaBeouf
--->
