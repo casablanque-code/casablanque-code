@@ -1,6 +1,6 @@
 ## Hi there! I'm Andrew 👋
 
-- 🔭 System Administrator, Network Infrastucture Engineer
+- 🔭 Network Infrastucture Engineer
 - 🌱 I’m currently learning lingala, programming, and cinema languages
 - 💻 Python, JS, Java, Kotlin
 - 🎬 When I close my laptop, I become an ambitious film director
