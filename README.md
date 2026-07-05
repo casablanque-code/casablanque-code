@@ -1,9 +1,14 @@
-## Hi there! I'm Andrew 👋
+### 📦 Open Source Packages
 
-- 🔭 Network Infrastucture Engineer & System Architect
-- 🌱 I’m currently learning lingala, programming, and cinema languages
-- 💻 Python, Rust, Go, JS/TS, Kotlin
-- 🎬 When I close my laptop, I become an ambitious film director
-- 📫 Feel free to reach me by mail casablanque@proton.me 
-- 🌍 Charlotte NC, Moscow, Dhaka, Kuala Lumpur
-- ⚡ Fun fact: pen pals with Shia LaBeouf
+Lightweight utilities and production-ready tools for Rust and Node.js ecosystems:
+
+#### 🦀 Rust (crates.io)
+* **[ios-config](https://crates.io/crates/ios-config)** — Parser and high-level wrapper for Cisco IOS configurations.  
+  [![Crates.io Version](https://img.shields.io/crates/v/ios-config?color=orange&style=flat-square)](https://crates.io/crates/ios-config) [![Crates.io Downloads](https://img.shields.io/crates/d/ios-config?color=blue&style=flat-square)](https://crates.io/crates/ios-config)
+
+* **[ios-config-core](https://crates.io/crates/ios-config-core)** — Intermediate representation (IR) types for parsed Cisco IOS configurations.  
+  [![Crates.io Version](https://img.shields.io/crates/v/ios-config-core?color=orange&style=flat-square)](https://crates.io/crates/ios-config-core) [![Crates.io Downloads](https://img.shields.io/crates/d/ios-config-core?color=blue&style=flat-square)](https://crates.io/crates/ios-config-core)
+
+#### 🟢 Node.js (npm)
+* **[@lighthouse-explorer/light-parser](https://www.npmjs.com/package/@lighthouse-explorer/light-parser)** — High-performance log parser tailored for the Lighthouse Explorer project.  
+  [![npm Version](https://img.shields.io/npm/v/@lighthouse-explorer/light-parser?color=green&style=flat-square)](https://www.npmjs.com/package/@lighthouse-explorer/light-parser) [![npm Downloads](https://img.shields.io/npm/dm/@lighthouse-explorer/light-parser?color=blue&style=flat-square)](https://www.npmjs.com/package/@lighthouse-explorer/light-parser)
