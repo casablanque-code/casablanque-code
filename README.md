@@ -1,6 +1,6 @@
 ### 📦 Open Source Packages
 
-Lightweight utilities and production-ready tools for Rust and Node.js ecosystems:
+Lightweight utilities and production-ready tools:
 
 #### 🦀 Rust (crates.io)
 * **[ios-config](https://crates.io/crates/ios-config)** — Parser and high-level wrapper for Cisco IOS configurations.  
