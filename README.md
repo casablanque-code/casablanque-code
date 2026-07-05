@@ -11,7 +11,7 @@ Lightweight utilities and production-ready tools for Rust and Node.js ecosystems
 
 #### ⚪ C (Static Binaries)
 * **[khm](https://github.com/casablanque-code/khm)** — Known Hosts Manager. A zero-dependency CLI tool to audit, diff, and scan SSH `known_hosts` using raw BSD sockets and a partial SSH handshake.  
-  [![GitHub release](https://img.shields.io/github/v/release/casablanque-code/khm?color=blue&style=flat-square)](https://github.com/casablanque-code/khm/releases) [![Repo Size](https://img.shields.io/github/repo-size/casablanque-code/khm?style=flat-square)](https://github.com/casablanque-code/khm)
+  [![GitHub release](https://img.shields.io/github/v/release/casablanque-code/khm?color=blue&style=flat-square)](https://github.com/casablanque-code/khm/releases) [![GitHub All Releases](https://img.shields.io/github/downloads/casablanque-code/khm/total?color=brightgreen&style=flat-square)](https://github.com/casablanque-code/khm/releases)
 
 #### 🟢 Node.js (npm)
 * **[@lighthouse-explorer/light-parser](https://www.npmjs.com/package/@lighthouse-explorer/light-parser)** — Parses IALA maritime light characteristic strings into structured ASTs with computed phase sequences.  
