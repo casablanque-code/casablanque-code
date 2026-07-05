@@ -4,7 +4,7 @@ Lightweight utilities and production-ready tools for Rust and Node.js ecosystems
 
 #### 🦀 Rust (crates.io)
 * **[ios-config](https://crates.io/crates/ios-config)** — Parser and high-level wrapper for Cisco IOS configurations.  
-  [![Crates.io Version](https://img.shields.io/crates/v/ios-config?color=orange&style=flat-square)](https://crates.io/crates/ios-config) [![Crates.io Downloads](https://img.shields.io/crates/d/ios-config?color=blue&style=flat-square)](https://crates.io/crates/ios-config)
+  [![Crates.io Version](https://img.shields.io/crates/v/ios-config?color=orange&style=flat-square)](https://crates.io/crates/ios-config) [![Crates.io Downloads](https://img.shields.io/crates/d/ios-config?color=blue&style=flat-square)](https://crates.io/crates/ios-config)[![docs.rs](https://img.shields.io/docsrs/ios-config?style=flat-square)](https://docs.rs/ios-config/latest/ios_config/) [![Crates.io Downloads](https://img.shields.io/crates/d/ios-config?color=blue&style=flat-square)](https://crates.io/crates/ios-config)
 
 * **[ios-config-core](https://crates.io/crates/ios-config-core)** — Intermediate representation (IR) types for parsed Cisco IOS configurations.  
   [![Crates.io Version](https://img.shields.io/crates/v/ios-config-core?color=orange&style=flat-square)](https://crates.io/crates/ios-config-core) [![Crates.io Downloads](https://img.shields.io/crates/d/ios-config-core?color=blue&style=flat-square)](https://crates.io/crates/ios-config-core)
