@@ -16,3 +16,6 @@ Lightweight utilities and production-ready tools for Rust and Node.js ecosystems
 #### 🟢 Node.js (npm)
 * **[@lighthouse-explorer/light-parser](https://www.npmjs.com/package/@lighthouse-explorer/light-parser)** — Parses IALA maritime light characteristic strings into structured ASTs with computed phase sequences.  
   [![npm Version](https://img.shields.io/npm/v/@lighthouse-explorer/light-parser?color=green&style=flat-square)](https://www.npmjs.com/package/@lighthouse-explorer/light-parser) [![npm Downloads](https://img.shields.io/npm/dm/@lighthouse-explorer/light-parser?color=blue&style=flat-square)](https://www.npmjs.com/package/@lighthouse-explorer/light-parser)
+
+* **[burnafter](https://github.com/casablanque-code/burnafterread)** — CLI tool and Fullstack application to share secrets that safely burn after being read.  
+  [![npm Version](https://img.shields.io/npm/v/burnafter?color=green&style=flat-square)](https://www.npmjs.com/package/burnafter) [![npm Downloads](https://img.shields.io/npm/dm/burnafter?color=blue&style=flat-square)](https://www.npmjs.com/package/burnafter)
