@@ -9,6 +9,10 @@ Lightweight utilities and production-ready tools:
 * **[ios-config-core](https://crates.io/crates/ios-config-core)** — Intermediate representation (IR) types for parsed Cisco IOS configurations.  
   [![Crates.io Version](https://img.shields.io/crates/v/ios-config-core?color=orange&style=flat-square)](https://crates.io/crates/ios-config-core) [![docs.rs](https://img.shields.io/docsrs/ios-config-core?style=flat-square)](https://docs.rs/ios-config-core/0.1.0/ios_config_core/) [![Crates.io Downloads](https://img.shields.io/crates/d/ios-config-core?color=blue&style=flat-square)](https://crates.io/crates/ios-config-core)
 
+#### 🔵 Go (go install)
+* **[cfzt](https://github.com/casablanque-code/cfzt)** (`zt`) — Zero Trust tunnel manager. Automatically exposes local services through Cloudflare Zero Trust, manages system daemons, configures access policies, and auto-heals UDP/QUIC fallbacks.  
+  [![Go Reference](https://img.shields.io/badge/go-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/casablanque-code/cfzt) [![CI](https://github.com/casablanque-code/cfzt/actions/workflows/ci.yml/badge.svg?style=flat-square)](https://github.com/casablanque-code/cfzt/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/casablanque-code/cfzt?style=flat-square)](https://goreportcard.com/report/github.com/casablanque-code/cfzt) [![TinyToolTown](https://img.shields.io/badge/TinyToolTown-featured-purple?style=flat-square)](https://tinytool.town)  
+
 #### ⚪ C (Static Binaries)
 * **[khm](https://github.com/casablanque-code/khm)** — Known Hosts Manager. A zero-dependency CLI tool to audit, diff, and scan SSH `known_hosts` using raw BSD sockets and a partial SSH handshake.  
   [![GitHub release](https://img.shields.io/github/v/release/casablanque-code/khm?color=blue&style=flat-square)](https://github.com/casablanque-code/khm/releases) [![GitHub All Releases](https://img.shields.io/github/downloads/casablanque-code/khm/total?color=brightgreen&style=flat-square)](https://github.com/casablanque-code/khm/releases)
