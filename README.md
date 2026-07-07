@@ -10,7 +10,7 @@ Lightweight utilities and production-ready tools:
   [![Crates.io Version](https://img.shields.io/crates/v/ios-config-core?color=orange&style=flat-square)](https://crates.io/crates/ios-config-core) [![docs.rs](https://img.shields.io/docsrs/ios-config-core?style=flat-square)](https://docs.rs/ios-config-core/0.1.0/ios_config_core/) [![Crates.io Downloads](https://img.shields.io/crates/d/ios-config-core?color=blue&style=flat-square)](https://crates.io/crates/ios-config-core)
 
 * **[pcap-frame-parser](https://crates.io/crates/pcap-frame-parser)** — A small, dependency-light Rust parser for network capture files and the frames inside them - no `libpcap`/`npcap` linkage, no `unsafe`.  
-  [![Crates.io Version](https://img.shields.io/crates/v/pcap-frame-parser?color=orange&style=flat-square)](https://crates.io/crates/pcap-frame-parser) [![docs.rs](https://img.shields.io/docsrs/pcap-frame-parser?style=flat-square)](https://docs.rs/pcap-frame-parser/0.2.1/pcap-frame-parser/) [![Crates.io Downloads](https://img.shields.io/crates/d/pcap-frame-parser?color=blue&style=flat-square)](https://crates.io/crates/pcap-frame-parser)
+  [![Crates.io Version](https://img.shields.io/crates/v/pcap-frame-parser?color=orange&style=flat-square)](https://crates.io/crates/pcap-frame-parser) [![docs.rs](https://img.shields.io/docsrs/pcap-frame-parser?style=flat-square)](https://docs.rs/pcap-frame-parser/0.2.1/pcap_frame_parser/) [![Crates.io Downloads](https://img.shields.io/crates/d/pcap-frame-parser?color=blue&style=flat-square)](https://crates.io/crates/pcap-frame-parser)
 
 
 #### 🔵 Go (go install)
