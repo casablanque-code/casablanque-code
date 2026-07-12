@@ -9,6 +9,12 @@ Lightweight utilities and production-ready tools:
 * **[ios-config-core](https://crates.io/crates/ios-config-core)** — Intermediate representation (IR) types for parsed Cisco IOS configurations.  
   [![Crates.io Version](https://img.shields.io/crates/v/ios-config-core?color=orange&style=flat-square)](https://crates.io/crates/ios-config-core) [![docs.rs](https://img.shields.io/docsrs/ios-config-core?style=flat-square)](https://docs.rs/ios-config-core/0.1.0/ios_config_core/) [![Crates.io Downloads](https://img.shields.io/crates/d/ios-config-core?color=blue&style=flat-square)](https://crates.io/crates/ios-config-core)
 
+* **[sidecheck](https://crates.io/crates/sidecheck)** — CLI that audits your own HTTP endpoints for remote timing side-channels, using proper statistics (bootstrap confidence intervals, robust jitter estimation) instead of a stopwatch.  
+  [![Crates.io Version](https://img.shields.io/crates/v/sidecheck?color=orange&style=flat-square)](https://crates.io/crates/sidecheck) [![Crates.io Downloads](https://img.shields.io/crates/d/sidecheck?color=blue&style=flat-square)](https://crates.io/crates/sidecheck)
+
+* **[sidecheck-core](https://crates.io/crates/sidecheck-core)** — Statistical core and HTTP sampler behind sidecheck: Crosby-Wallach box-test timing analysis as a standalone library.  
+  [![Crates.io Version](https://img.shields.io/crates/v/sidecheck-core?color=orange&style=flat-square)](https://crates.io/crates/sidecheck-core) [![docs.rs](https://img.shields.io/docsrs/sidecheck-core?style=flat-square)](https://docs.rs/sidecheck-core/latest/sidecheck_core/) [![Crates.io Downloads](https://img.shields.io/crates/d/sidecheck-core?color=blue&style=flat-square)](https://crates.io/crates/sidecheck-core)  
+
 * **[pcap-frame-parser](https://crates.io/crates/pcap-frame-parser)** — A small, dependency-light Rust parser for network capture files and the frames inside them - no `libpcap`/`npcap` linkage, no `unsafe`.  
   [![Crates.io Version](https://img.shields.io/crates/v/pcap-frame-parser?color=orange&style=flat-square)](https://crates.io/crates/pcap-frame-parser) [![docs.rs](https://img.shields.io/docsrs/pcap-frame-parser?style=flat-square)](https://docs.rs/pcap-frame-parser/0.2.1/pcap_frame_parser/) [![Crates.io Downloads](https://img.shields.io/crates/d/pcap-frame-parser?color=blue&style=flat-square)](https://crates.io/crates/pcap-frame-parser)
 
