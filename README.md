@@ -4,7 +4,6 @@ Lightweight utilities and production-ready tools:
 
 #### 🔵 Go (go install)
 * **[cfzt](https://github.com/casablanque-code/cfzt)** (`zt`) — Zero Trust tunnel manager. Automatically exposes local services through Cloudflare Zero Trust, manages system daemons, configures access policies, and auto-heals UDP/QUIC fallbacks.  
-[![CI](https://github.com/casablanque-code/cfzt/actions/workflows/ci.yml/badge.svg)](https://github.com/casablanque-code/cfzt/actions/workflows/ci.yml)
 [![Go Reference](https://pkg.go.dev/badge/github.com/casablanque-code/cfzt.svg)](https://pkg.go.dev/github.com/casablanque-code/cfzt)
 [![Gitleaks](https://img.shields.io/badge/protected%20by-gitleaks-blue)](https://github.com/casablanque-code/cfzt/actions/workflows/gitleaks.yml)
 [![Tiny Tool Town](https://img.shields.io/badge/featured-TinyToolTown-blue)](https://www.tinytooltown.com/tools/cfzt/)
@@ -12,6 +11,8 @@ Lightweight utilities and production-ready tools:
 
 #### ⚪ C (Static Binaries)
 * **[khm](https://github.com/casablanque-code/khm)** — Known Hosts Manager. A zero-dependency CLI tool to audit, diff, and scan SSH `known_hosts` using raw BSD sockets and a partial SSH handshake.  
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen)](#how-it-works)
+[![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)](#install)
 [![GitHub release](https://img.shields.io/github/v/release/casablanque-code/khm?color=blue&style=flat-square)](https://github.com/casablanque-code/khm/releases)
 [![GitHub All Releases](https://img.shields.io/github/downloads/casablanque-code/khm/total?color=brightgreen&style=flat-square)](https://github.com/casablanque-code/khm/releases)
 
