@@ -27,6 +27,21 @@ Lightweight utilities and production-ready tools:
 [![docs.rs](https://img.shields.io/docsrs/ios-config-core?style=flat-square)](https://docs.rs/ios-config-core/0.1.0/ios_config_core/)
 [![Crates.io Downloads](https://img.shields.io/crates/d/ios-config-core?color=blue&style=flat-square)](https://crates.io/crates/ios-config-core)
 
+* **[gai-inspector](https://crates.io/crates/gai-inspector)** (`gai`) — getaddrinfo inspector: explains how a name turns into an IP (nsswitch, resolv.conf, systemd-resolved, mDNS) and cross-checks it against a direct DNS query, no LD_PRELOAD/eBPF/ptrace.  
+[![Crates.io Version](https://img.shields.io/crates/v/gai-inspector?color=orange&style=flat-square)](https://crates.io/crates/gai-inspector)
+[![Crates.io Downloads](https://img.shields.io/crates/d/gai-inspector?color=blue&style=flat-square)](https://crates.io/crates/gai-inspector)
+[![Release](https://img.shields.io/github/v/release/casablanque-code/gai)](https://github.com/casablanque-code/gai/releases/latest)
+
+* **[gai-core](https://crates.io/crates/gai-core)** — Pure parsing + simulation of Linux name-resolution config (nsswitch.conf, resolv.conf, gai.conf, hosts) behind gai-inspector — no I/O, fixture-tested.  
+[![Crates.io Version](https://img.shields.io/crates/v/gai-core?color=orange&style=flat-square)](https://crates.io/crates/gai-core)
+[![docs.rs](https://img.shields.io/docsrs/gai-core?style=flat-square)](https://docs.rs/gai-core/latest/gai_core/)
+[![Crates.io Downloads](https://img.shields.io/crates/d/gai-core?color=blue&style=flat-square)](https://crates.io/crates/gai-core)
+
+* **[gai-probe](https://crates.io/crates/gai-probe)** — Real I/O backing gai-core's simulation: DNS queries, /etc/hosts, systemd-resolved D-Bus, one-shot mDNS probing.  
+[![Crates.io Version](https://img.shields.io/crates/v/gai-probe?color=orange&style=flat-square)](https://crates.io/crates/gai-probe)
+[![docs.rs](https://img.shields.io/docsrs/gai-probe?style=flat-square)](https://docs.rs/gai-probe/latest/gai_probe/)
+[![Crates.io Downloads](https://img.shields.io/crates/d/gai-probe?color=blue&style=flat-square)](https://crates.io/crates/gai-probe)
+
 * **[sidecheck](https://crates.io/crates/sidecheck)** — CLI that audits your own HTTP endpoints for remote timing side-channels, using proper statistics (bootstrap confidence intervals, robust jitter estimation) instead of a stopwatch.  
 [![Crates.io Version](https://img.shields.io/crates/v/sidecheck?color=orange&style=flat-square)](https://crates.io/crates/sidecheck)
 [![Crates.io Downloads](https://img.shields.io/crates/d/sidecheck?color=blue&style=flat-square)](https://crates.io/crates/sidecheck)
