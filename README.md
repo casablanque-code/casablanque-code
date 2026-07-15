@@ -29,8 +29,8 @@ Lightweight utilities and production-ready tools:
 
 * **[gai-inspector](https://crates.io/crates/gai-inspector)** (`gai`) — getaddrinfo inspector: explains how a name turns into an IP (nsswitch, resolv.conf, systemd-resolved, mDNS) and cross-checks it against a direct DNS query, no LD_PRELOAD/eBPF/ptrace.  
 [![Crates.io Version](https://img.shields.io/crates/v/gai-inspector?color=orange&style=flat-square)](https://crates.io/crates/gai-inspector)
-[![Crates.io Downloads](https://img.shields.io/crates/d/gai-inspector?color=blue&style=flat-square)](https://crates.io/crates/gai-inspector)
 [![Release](https://img.shields.io/github/v/release/casablanque-code/gai)](https://github.com/casablanque-code/gai/releases/latest)
+[![Crates.io Downloads](https://img.shields.io/crates/d/gai-inspector?color=blue&style=flat-square)](https://crates.io/crates/gai-inspector)
 
 * **[gai-core](https://crates.io/crates/gai-core)** — Pure parsing + simulation of Linux name-resolution config (nsswitch.conf, resolv.conf, gai.conf, hosts) behind gai-inspector — no I/O, fixture-tested.  
 [![Crates.io Version](https://img.shields.io/crates/v/gai-core?color=orange&style=flat-square)](https://crates.io/crates/gai-core)
