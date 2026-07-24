@@ -1,3 +1,5 @@
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=casablanque-code&show_icons=true&theme=radial)
+
 ### 📦 Open Source Packages
 
 Lightweight utilities and production-ready tools:
