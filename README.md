@@ -1,4 +1,4 @@
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=casablanque-code&show_icons=true&theme=radial)
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=casablanque-code&show_icons=true&theme=radial)
 
 ### 📦 Open Source Packages
 
