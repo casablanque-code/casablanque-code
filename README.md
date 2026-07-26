@@ -24,10 +24,10 @@ Lightweight utilities and production-ready tools:
 [![docs.rs](https://img.shields.io/docsrs/ios-config?style=flat-square)](https://docs.rs/ios-config/latest/ios_config/)
 [![Crates.io Downloads](https://img.shields.io/crates/d/ios-config?color=blue&style=flat-square)](https://crates.io/crates/ios-config)
 
-* **[ios-config-core](https://crates.io/crates/ios-config-core)** — Intermediate representation (IR) types for parsed Cisco IOS configurations.  
-[![Crates.io Version](https://img.shields.io/crates/v/ios-config-core?color=orange&style=flat-square)](https://crates.io/crates/ios-config-core)
-[![docs.rs](https://img.shields.io/docsrs/ios-config-core?style=flat-square)](https://docs.rs/ios-config-core/0.1.0/ios_config_core/)
-[![Crates.io Downloads](https://img.shields.io/crates/d/ios-config-core?color=blue&style=flat-square)](https://crates.io/crates/ios-config-core)
+* **[netconv-core](https://crates.io/crates/netconv-core)** — Vendor-agnostic IR (intermediate representation) types and traits for network device configuration conversion. Used by ios-config and the netconv renderers.  
+[![Crates.io Version](https://img.shields.io/crates/v/netconv-core?color=orange&style=flat-square)](https://crates.io/crates/netconv-core)
+[![docs.rs](https://img.shields.io/docsrs/netconv-core?style=flat-square)](https://docs.rs/netconv-core/0.1.0/netconv_core/)
+[![Crates.io Downloads](https://img.shields.io/crates/d/netconv-core?color=blue&style=flat-square)](https://crates.io/crates/netconv-core)
 
 * **[gai-inspector](https://crates.io/crates/gai-inspector)** (`gai`) — getaddrinfo inspector: explains how a name turns into an IP (nsswitch, resolv.conf, systemd-resolved, mDNS) and cross-checks it against a direct DNS query, no LD_PRELOAD/eBPF/ptrace.  
 [![Crates.io Version](https://img.shields.io/crates/v/gai-inspector?color=orange&style=flat-square)](https://crates.io/crates/gai-inspector)
