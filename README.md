@@ -71,8 +71,7 @@ Lightweight utilities and production-ready tools:
 
 ---
 
-```text
 ================================================================================
-PGP Fingerprint : 2A49CD4AF95F76DF38FC1F9EBFB3563375149683
+PGP Fingerprint : 2A49 CD4A F95F 76DF 38FC 1F9E BFB3 5633 7514 9683
 Status          : Open for Infrastructure Audits & Systems Engineering
 ================================================================================
