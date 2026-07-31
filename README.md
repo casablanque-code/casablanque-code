@@ -70,7 +70,7 @@ Lightweight utilities and production-ready tools:
 [![npm Downloads](https://badgen.net/npm/dm/burnafter?color=284b63)](https://www.npmjs.com/package/burnafter)
 
 ---
-
+```text
 ================================================================================
 PGP Fingerprint : 2A49 CD4A F95F 76DF 38FC 1F9E BFB3 5633 7514 9683
 Status          : Open for Infrastructure Audits & Systems Engineering
