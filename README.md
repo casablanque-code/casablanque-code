@@ -1,8 +1,6 @@
 ![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=casablanque-code&show_icons=true&theme=dracula)
 
-### 📦 Open Source Packages
-
-Lightweight utilities and production-ready tools:
+### Open Source
 
 #### 🔵 Go
 * **[cfzt](https://github.com/casablanque-code/cfzt)** (`zt`) — Zero Trust tunnel manager. Automatically exposes local services through Cloudflare Zero Trust, manages system daemons, configures access policies, and auto-heals UDP/QUIC fallbacks.  
