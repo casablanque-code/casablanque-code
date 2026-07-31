@@ -20,7 +20,7 @@ Lightweight utilities and production-ready tools:
 
 #### 🦀 Rust
 * **[ios-config](https://crates.io/crates/ios-config)** — Parser and high-level wrapper for Cisco IOS configurations.  
-[![Crates.io Version](https://img.shields.io/crates/v/ios-config?color=orange&style=flat-square&color=282a36&labelColor=44475a)](https://crates.io/crates/ios-config)
+[![Crates.io Version](https://img.shields.io/crates/v/ios-config?color=orange&style=flat-square)](https://crates.io/crates/ios-config)
 [![docs.rs](https://img.shields.io/docsrs/ios-config?style=flat-square)](https://docs.rs/ios-config/latest/ios_config/)
 [![Crates.io Downloads](https://img.shields.io/crates/d/ios-config?color=blue&style=flat-square)](https://crates.io/crates/ios-config)
 
