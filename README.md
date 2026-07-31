@@ -16,7 +16,7 @@ Lightweight utilities and production-ready tools:
 [![Zero Dependencies](https://badgen.net/badge/dependencies/zero/1b6838)](#how-it-works)
 [![Platform](https://badgen.net/badge/platform/Linux/343a40)](#install)
 [![GitHub release](https://badgen.net/github/release/casablanque-code/khm?color=1b6838)](https://github.com/casablanque-code/khm/releases)
-[![GitHub All Releases](https://badgen.net/github/assets/dl/casablanque-code/khm?color=284b63)](https://github.com/casablanque-code/khm/releases)
+[![GitHub All Releases](https://badgen.net/github/assets-dl/casablanque-code/khm?color=284b63)](https://github.com/casablanque-code/khm/releases)
 
 #### 🦀 Rust
 * **[ios-config](https://crates.io/crates/ios-config)** — Parser and high-level wrapper for Cisco IOS configurations.  
@@ -68,3 +68,11 @@ Lightweight utilities and production-ready tools:
 * **[burnafter](https://github.com/casablanque-code/burnafterread)** — CLI tool and Fullstack application to share secrets that safely burn after being read.  
 [![npm Version](https://badgen.net/npm/v/burnafter?color=901d38&icon=npm)](https://www.npmjs.com/package/burnafter)
 [![npm Downloads](https://badgen.net/npm/dm/burnafter?color=284b63)](https://www.npmjs.com/package/burnafter)
+
+---
+
+```text
+================================================================================
+PGP Fingerprint : 2A49CD4AF95F76DF38FC1F9EBFB3563375149683
+Status          : Open for Infrastructure Audits & Systems Engineering
+================================================================================
