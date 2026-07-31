@@ -6,7 +6,7 @@ Lightweight utilities and production-ready tools:
 
 #### 🔵 Go
 * **[cfzt](https://github.com/casablanque-code/cfzt)** (`zt`) — Zero Trust tunnel manager. Automatically exposes local services through Cloudflare Zero Trust, manages system daemons, configures access policies, and auto-heals UDP/QUIC fallbacks.  
-[![Go Reference](https://img.shields.io/badge/go.dev-reference-1d4e89?style=for-the-badge&logo=go&logoColor=white)](https://pkg.go.dev/github.com/casablanque-code/cfzt)
+[![Go Reference](https://img.shields.io/badge/go.dev-reference-1d4e89?style=flat&logo=go&logoColor=white)](https://pkg.go.dev/github.com/casablanque-code/cfzt)
 [![Gitleaks](https://img.shields.io/badge/gitleaks-protected-284b63?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/casablanque-code/cfzt/actions/workflows/gitleaks.yml)
 [![Tiny Tool Town](https://img.shields.io/badge/featured-TinyToolTown-1d4e89?style=for-the-badge)](https://www.tinytooltown.com/tools/cfzt/)
 [![Release](https://img.shields.io/github/v/release/casablanque-code/cfzt?color=1b6838&style=for-the-badge)](https://github.com/casablanque-code/cfzt/releases/latest)  
