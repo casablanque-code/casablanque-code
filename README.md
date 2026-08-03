@@ -3,6 +3,7 @@
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=casablanque-code&show_icons=true&theme=default">
   <img alt="GitHub Stats" src="https://github-readme-stats-sigma-five.vercel.app/api?username=casablanque-code&show_icons=true&theme=dracula">
 </picture>
+
 ---
 [![PGP](https://badgen.net/badge/PGP/2A49%20CD4A%20F95F%2076DF%2038FC%201F9E%20BFB3%205633%207514%209683/284b63?icon=key)](https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683)
 [![Status](https://badgen.net/badge/status/Open%20for%20Infrastructure%20Audits%20%26%20Systems%20Engineering/1b6838)](https://github.com/casablanque-code)
