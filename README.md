@@ -4,6 +4,9 @@
   <img alt="GitHub Stats" src="https://github-readme-stats-sigma-five.vercel.app/api?username=casablanque-code&show_icons=true&theme=dracula">
 </picture>
 
+[![StackShare](https://badgen.net/badge/stackshare/my-tech-stack/0690FA?icon=stackshare)](https://stackshare.io/casablanque-code/engineer-stack)
+[![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=casablanque-code.casablanque-code&color=284b63)](https://github.com/casablanque-code)
+
 ### Open Source
 
 #### 🔵 Go
