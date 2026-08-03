@@ -3,9 +3,10 @@
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=casablanque-code&show_icons=true&theme=default">
   <img alt="GitHub Stats" src="https://github-readme-stats-sigma-five.vercel.app/api?username=casablanque-code&show_icons=true&theme=dracula">
 </picture>
-
+---
+[![PGP](https://badgen.net/badge/PGP/2A49%20CD4A%20F95F%2076DF%2038FC%201F9E%20BFB3%205633%207514%209683/284b63?icon=key)](https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683)
+[![Status](https://badgen.net/badge/status/Open%20for%20Infrastructure%20Audits%20%26%20Systems%20Engineering/1b6838)](https://github.com/casablanque-code)
 [![StackShare](https://badgen.net/badge/stackshare/my-tech-stack/0690FA?icon=stackshare)](https://stackshare.io/casablanque-code/engineer-stack)
-[![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=casablanque-code.casablanque-code&color=284b63)](https://github.com/casablanque-code)
 
 ### Open Source
 
@@ -76,8 +77,5 @@
 [![npm Downloads](https://badgen.net/npm/dm/burnafter?color=284b63)](https://www.npmjs.com/package/burnafter)
 
 ---
-```text
-================================================================================
-PGP Fingerprint : 2A49 CD4A F95F 76DF 38FC 1F9E BFB3 5633 7514 9683
-Status          : Open for Infrastructure Audits & Systems Engineering
-================================================================================
+
+[![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=casablanque-code.casablanque-code&color=284b63)](https://github.com/casablanque-code)
