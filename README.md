@@ -6,7 +6,7 @@
 
 ---
 [![PGP](https://badgen.net/badge/PGP/2A49%20CD4A%20F95F%2076DF%2038FC%201F9E%20BFB3%205633%207514%209683/284b63?icon=key)](https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683)
-[![Status](https://badgen.net/badge/status/Open%20for%20Infrastructure%20Audits%20%26%20Systems%20Engineering/1b6838)](https://github.com/casablanque-code)
+[![Status](https://badgen.net/badge/status/Open%20for%20Collaboration/1b6838)](https://github.com/casablanque-code)
 [![StackShare](https://badgen.net/badge/stackshare/my-tech-stack/0690FA?icon=stackshare)](https://stackshare.io/casablanque-code/engineer-stack)
 
 ### Open Source
