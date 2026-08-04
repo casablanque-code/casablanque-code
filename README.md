@@ -18,6 +18,7 @@
 [![codecov](https://codecov.io/gh/casablanque-code/cfzt/branch/main/graph/badge.svg)](https://codecov.io/gh/casablanque-code/cfzt)
 [![Tiny Tool Town](https://badgen.net/badge/featured/TinyToolTown/1d4e89)](https://www.tinytooltown.com/tools/cfzt/)
 [![Release](https://badgen.net/github/release/casablanque-code/cfzt?color=1b6838)](https://github.com/casablanque-code/cfzt/releases/latest)
+[![GitHub All Releases](https://img.shields.io/github/downloads/casablanque-code/cfzt/total?color=284b63&style=flat)](https://github.com/casablanque-code/cfzt/releases)
 
 #### ⚪ C
 * **[khm](https://github.com/casablanque-code/khm)** — Known Hosts Manager. A zero-dependency CLI tool to audit, diff, and scan SSH `known_hosts` using raw BSD sockets and a partial SSH handshake.  
