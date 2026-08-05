@@ -72,11 +72,11 @@
 #### 🟢 Node.js
 * **[@lighthouse-explorer/light-parser](https://www.npmjs.com/package/@lighthouse-explorer/light-parser)** — Parses IALA maritime light characteristic strings into structured ASTs with computed phase sequences.  
 [![npm Version](https://badgen.net/npm/v/@lighthouse-explorer/light-parser?color=901d38&icon=npm)](https://www.npmjs.com/package/@lighthouse-explorer/light-parser)
-[![npm Downloads](https://badgen.net/npm/dm/@lighthouse-explorer/light-parser?color=284b63)](https://www.npmjs.com/package/@lighthouse-explorer/light-parser)
+[![npm Downloads](https://badgen.net/npm/dt/@lighthouse-explorer/light-parser?color=284b63)](https://www.npmjs.com/package/@lighthouse-explorer/light-parser)
 
 * **[burnafter](https://github.com/casablanque-code/burnafterread)** — CLI tool and Fullstack application to share secrets that safely burn after being read.  
 [![npm Version](https://badgen.net/npm/v/burnafter?color=901d38&icon=npm)](https://www.npmjs.com/package/burnafter)
-[![npm Downloads](https://badgen.net/npm/dm/burnafter?color=284b63)](https://www.npmjs.com/package/burnafter)
+[![npm Downloads](https://badgen.net/npm/dt/burnafter?color=284b63)](https://www.npmjs.com/package/burnafter)
 
 ---
 
