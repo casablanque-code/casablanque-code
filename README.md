@@ -21,8 +21,7 @@ Turns out, it's something systems have to keep proving.
 
 * **[khm](https://github.com/casablanque-code/khm)** - `known_hosts` is not just a cache. It's a database of server identities.
 * **[cfzt](https://github.com/casablanque-code/cfzt)** - Zero Trust is less about replacing a VPN and more about identity, reachability and continuously verifying state.
-* **[burnafterread](https://github.com/casablanque-code/burnafterread)** - sharing a secret doesn't have to mean giving the server access to it.  
-[![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://burnafterread.casablanque.com/)
+* **[burnafterread](https://github.com/casablanque-code/burnafterread)** - sharing a secret doesn't have to mean giving the server access to it. [![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://burnafterread.casablanque.com/)
 
 ### Measurement
 
