@@ -38,14 +38,10 @@ Turns out, they're just evidence of what happened.
 
 **[Network Forensics Series](https://github.com/stars/casablanque-code/lists/network-forensics)**
 
-* **[ospf-postmortem](https://github.com/casablanque-code/ospf-postmortem)** - reconstruct the OSPF FSM and find why an adjacency got stuck.  
-[![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://ospf.postmortem.casablanque.com/)
-* **[dhcp-postmortem](https://github.com/casablanque-code/dhcp-postmortem)** - reconstruct DORA and detect failures from packet evidence.  
-[![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://dhcp.postmortem.casablanque.com/)
-* **[stp-postmortem](https://github.com/casablanque-code/stp-postmortem)** - reconstruct STP/RSTP behaviour, topology changes and root causes.  
-[![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://stp.postmortem.casablanque.com/)
-* **[dns-postmortem](https://github.com/casablanque-code/dns-postmortem)** - DNS traffic, anomaly detection and tunneling analysis.  
-[![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://dns.postmortem.casablanque.com/)
+* **[ospf-postmortem](https://github.com/casablanque-code/ospf-postmortem)** - reconstruct the OSPF FSM and find why an adjacency got stuck.[![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://ospf.postmortem.casablanque.com/)
+* **[dhcp-postmortem](https://github.com/casablanque-code/dhcp-postmortem)** - reconstruct DORA and detect failures from packet evidence.[![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://dhcp.postmortem.casablanque.com/)
+* **[stp-postmortem](https://github.com/casablanque-code/stp-postmortem)** - reconstruct STP/RSTP behaviour, topology changes and root causes.[![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://stp.postmortem.casablanque.com/)
+* **[dns-postmortem](https://github.com/casablanque-code/dns-postmortem)** - DNS traffic, anomaly detection and tunneling analysis.[![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://dns.postmortem.casablanque.com/)
 
 > *Everything runs locally in the browser. PCAPs never leave the machine.*
 
