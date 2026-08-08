@@ -2,7 +2,7 @@
 
 I build small tools around systems where the obvious explanation is often not quite true.
 
-DNS, SSH, Zero Trust, timing, packet captures, configuration formats, infrastructure - the fucking things we've had for years and think we already understand.
+DNS, SSH, Zero Trust, timing, packet captures, configuration formats, infrastructure - things we've had for years and think we already understand.
 
 Usually it starts with:
 
@@ -16,8 +16,8 @@ Then I go find out.
 
 ### Trust & Identity
 
-We usually treat trust as a fucking fact.
-Turns out, it's something systems have to keep proving.
+We usually treat trust as a fact.
+Turns out, it's something systems have to fucking keep proving.
 
 * **[khm](https://github.com/casablanque-code/khm)** - `known_hosts` is not just a cache. It's a database of server identities.
 * **[cfzt](https://github.com/casablanque-code/cfzt)** - Zero Trust is less about replacing a VPN and more about identity, reachability and continuously verifying state.
