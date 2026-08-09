@@ -47,10 +47,8 @@ Turns out, they're just evidence of what happened.
 
 ### Semantics & Infrastructure
 
-We usually treat configuration and infrastructure as mechanical problems.
-Turns out, the interesting bugs live in the semantics.
-
 Some problems look like parsing or automation problems until you look closer.
+Turns out most "automation" is just someone's assumptions, hardcoded and never questioned as shit.
 
 * **[netconv](https://github.com/casablanque-code/netconv)** - configuration conversion is about semantics, not replacing keywords.
 * **[pcap-frame-parser](https://github.com/casablanque-code/pcap-frame-parser)** - packet formats have decades of edge cases hiding behind deceptively simple structures.
