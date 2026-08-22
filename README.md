@@ -89,3 +89,7 @@ The tool is just the artifact.
 ---
 
 [PGP](https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683) · [Stack](https://stackshare.io/casablanque-code/engineer-stack)
+
+---
+
+[![Ko-fi](https://badgen.net/badge/support/ko-fi/e74c3c?icon=kofi&labelColor=2d3748)](https://ko-fi.com/casablanque)
