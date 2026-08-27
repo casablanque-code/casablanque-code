@@ -8,11 +8,25 @@ Usually it starts with:
 
 > **"Is that actually what happens?"**
 
-Then I go find out.
+Then I go find out. **friction → investigation → hypothesis → tool.** The tool is just the artifact.
 
 ---
 
-## What I'm digging into
+## Live Radar
+
+<!-- AUTO-GENERATED — do not edit manually, see .github/workflows/*.yml -->
+
+**Resolution divergence** (`gai` vs naive `dig`) · last run `2026-08-27 06:00 UTC`
+> 0 divergences in the last 30 days across 14 tracked domains — dig hasn't lied yet.
+> _(when it does, this line changes — that's the interesting part)_
+
+**README integrity** · signed `2026-08-27 06:00 UTC` · [verify](./README.stable.md.sig)
+> `SHA256: a1b2c3d4…` · [my PGP key](https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683)
+> Zero Trust ain't just for infra. Don't trust this file either - verify it.
+
+<!-- /AUTO-GENERATED -->
+
+---
 
 ### Trust & Identity
 
@@ -22,8 +36,7 @@ Turns out, it's something systems have to fucking keep proving.
 * **[khm](https://github.com/casablanque-code/khm)** - `known_hosts` is not just a cache. It's a database of server identities.
 * **[cfzt](https://github.com/casablanque-code/cfzt)** - Zero Trust is less about replacing a VPN and more about identity, reachability and continuously verifying state.
 * **[gai](https://github.com/casablanque-code/gai)** - `dig` working doesn't mean your process resolves the name the same way. Reconstructs the actual `getaddrinfo()` decision path.
-* **[burnafterread](https://github.com/casablanque-code/burnafterread)** - sharing a secret doesn't have to mean giving the server access to it. [![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://burnafterread.casablanque.com/)
-
+* **[burnafterread](https://github.com/casablanque-code/burnafterread)** - sharing a secret doesn't have to mean giving the server access to it. [`live`](https://burnafterread.casablanque.com/)
 ### Measurement
 
 We usually treat latency as noise.
@@ -33,22 +46,20 @@ Turns out, sometimes the measurement is the attack surface.
 
 ### Network Forensics
 
-We usually treat packets as what happened.
-Turns out, they're just evidence of what happened.
+Packets are evidence, not truth.
 
 **[Network Forensics Series](https://github.com/stars/casablanque-code/lists/network-forensics)**
 
-* **[ospf-postmortem](https://github.com/casablanque-code/ospf-postmortem)** - reconstruct the OSPF FSM and find why an adjacency got stuck. [![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://ospf.postmortem.casablanque.com/)
-* **[dhcp-postmortem](https://github.com/casablanque-code/dhcp-postmortem)** - reconstruct DORA and detect failures from packet evidence. [![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://dhcp.postmortem.casablanque.com/)
-* **[stp-postmortem](https://github.com/casablanque-code/stp-postmortem)** - reconstruct STP/RSTP behaviour, topology changes and root causes. [![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://stp.postmortem.casablanque.com/)
-* **[dns-postmortem](https://github.com/casablanque-code/dns-postmortem)** - DNS traffic, anomaly detection and tunneling analysis. [![Live](https://badgen.net/badge/demo/live/?color=1b6838&style=flat)](https://dns.postmortem.casablanque.com/)
-
+* **[ospf-postmortem](https://github.com/casablanque-code/ospf-postmortem)** - reconstruct the OSPF FSM and find why an adjacency got stuck. [`live`](https://ospf.postmortem.casablanque.com/)
+* **[dhcp-postmortem](https://github.com/casablanque-code/dhcp-postmortem)** - reconstruct DORA and detect failures from packet evidence. [`live`](https://dhcp.postmortem.casablanque.com/)
+* **[stp-postmortem](https://github.com/casablanque-code/stp-postmortem)** - reconstruct STP/RSTP behaviour, topology changes and root causes. [`live`](https://stp.postmortem.casablanque.com/)
+* **[dns-postmortem](https://github.com/casablanque-code/dns-postmortem)** - DNS traffic, anomaly detection and tunneling analysis. [`live`](https://dns.postmortem.casablanque.com/)
 > *Everything runs locally in the browser. PCAPs never leave the machine.*
 
 ### Semantics & Infrastructure
 
 Some problems look like parsing or automation problems until you look closer.
-Turns out most "automation" is just someone's assumptions, hardcoded and left to rot.
+But most "automation" is just someone's assumptions, hardcoded and left to rot.
 
 * **[netconv](https://github.com/casablanque-code/netconv)** - configuration conversion is about semantics, not replacing keywords.
 * **[pcap-frame-parser](https://github.com/casablanque-code/pcap-frame-parser)** - packet formats have decades of edge cases hiding behind deceptively simple structures.
@@ -56,7 +67,8 @@ Turns out most "automation" is just someone's assumptions, hardcoded and left to
 
 ---
 
-## A few libraries
+<details>
+<summary>A few libs</summary>
 
 | Library / Package | Version | Docs | Downloads |
 | :--- | :--- | :--- | :--- |
@@ -68,23 +80,7 @@ Turns out most "automation" is just someone's assumptions, hardcoded and left to
 | **[burnafter](https://github.com/casablanque-code/burnafterread)** | [![npm Version](https://badgen.net/npm/v/burnafter?color=901d38&icon=npm)](https://www.npmjs.com/package/burnafter) | — | [![npm Downloads](https://badgen.net/npm/dt/burnafter?color=284b63)](https://www.npmjs.com/package/burnafter) |
 | **[@lighthouse-explorer/light-parser](https://www.npmjs.com/package/@lighthouse-explorer/light-parser)** | [![npm Version](https://badgen.net/npm/v/@lighthouse-explorer/light-parser?color=901d38&icon=npm)](https://www.npmjs.com/package/@lighthouse-explorer/light-parser) | — | [![npm Downloads](https://badgen.net/npm/dt/@lighthouse-explorer/light-parser?color=284b63)](https://www.npmjs.com/package/@lighthouse-explorer/light-parser) |
 
----
-
-## The common thread
-
-I don't usually start with:
-
-> *"What tool should I build?"*
-
-It's more often:
-
-> **"Why the hell does this work like that?"**
-
-Then:
-
-**friction → investigation → hypothesis → tool**
-
-The tool is just the artifact.
+</details>
 
 ---
 
