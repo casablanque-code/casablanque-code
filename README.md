@@ -1,5 +1,9 @@
 # Engineering, mostly at the edges of intuition
 
+<!-- AUTO-GENERATED-STATUS -->
+🟢 **Radar status:** 0 findings today
+<!-- /AUTO-GENERATED-STATUS -->
+
 I build small tools around systems where the obvious explanation is often not quite true.
 
 DNS, SSH, Zero Trust, timing, packet captures, configuration formats, infrastructure - things we've had for years and think we already understand.
