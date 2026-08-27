@@ -6,3 +6,6 @@ ipv6.google.com
 google.com
 netflix.com
 ipv6.google.com
+google.com
+akamai.com
+ipv6.google.com
