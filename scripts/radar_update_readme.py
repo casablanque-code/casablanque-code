@@ -12,8 +12,9 @@ HISTORY = Path(".radar/history.json")
 
 
 def find_marker_line(lines, needle, exclude=None):
+    excludes = exclude if isinstance(exclude, (list, tuple)) else ([exclude] if exclude else [])
     for i, line in enumerate(lines):
-        if needle in line and (exclude is None or exclude not in line):
+        if needle in line and not any(ex in line for ex in excludes):
             return i
     return -1
 
@@ -62,11 +63,16 @@ def main():
     text = README.read_text()
     lines = text.splitlines()
 
-    start_idx = find_marker_line(lines, "AUTO-GENERATED", exclude="AUTO-GENERATED-SIG")
+    start_idx = find_marker_line(
+        lines, "AUTO-GENERATED",
+        exclude=["AUTO-GENERATED-SIG", "AUTO-GENERATED-STATUS", "AUTO-GENERATED-LEADERBOARD"]
+    )
     end_idx = -1
     if start_idx != -1:
         for i in range(start_idx + 1, len(lines)):
-            if "/AUTO-GENERATED" in lines[i] and "SIG" not in lines[i]:
+            if "/AUTO-GENERATED" in lines[i] and not any(
+                s in lines[i] for s in ("SIG", "STATUS", "LEADERBOARD")
+            ):
                 end_idx = i
                 break
 
