@@ -1,0 +1,226 @@
+== cloudflare.com ==
+[gai] Simulating name resolution for "cloudflare.com"...
+
+  (reality check via 168.63.129.16, systemd-resolved stub: true)
+
+RESOLUTION PATH (simulated):
+  1. Files          NOT FOUND
+  2. Dns            FOUND  2606:4700::6810:84e5, 2606:4700::6810:85e5, 104.16.132.229, 104.16.133.229
+
+DIAGNOSIS:
+  ┌─ OK ─────────────────────────────────────────────────────────────────────┐
+  │ Resolution succeeded and matches direct DNS. No discrepancy found.       │
+  └──────────────────────────────────────────────────────────────────────────┘
+== github.com ==
+[gai] Simulating name resolution for "github.com"...
+
+  (reality check via 168.63.129.16, systemd-resolved stub: true)
+
+RESOLUTION PATH (simulated):
+  1. Files          NOT FOUND
+  2. Dns            FOUND  140.82.112.4
+
+DIAGNOSIS:
+  ┌─ NOTE ───────────────────────────────────────────────────────────────────┐
+  │ The OS chain and a direct DNS query disagree: 140.82.112.4 vs            │
+  │ 140.82.114.4. Both answers came from DNS itself, so this isn't an        │
+  │ earlier source (files/mdns) intercepting the name — it's more likely two │
+  │ separate queries landing on different anycast/GeoDNS edges, or a change  │
+  │ between queries. If this persists for a name that should be static,      │
+  │ that's worth digging into further.                                       │
+  └──────────────────────────────────────────────────────────────────────────┘
+== google.com ==
+[gai] Simulating name resolution for "google.com"...
+
+  (reality check via 168.63.129.16, systemd-resolved stub: true)
+
+RESOLUTION PATH (simulated):
+  1. Files          NOT FOUND
+  2. Dns            FOUND  2607:f8b0:4004:c1b::64, 2607:f8b0:4004:c1b::66, 2607:f8b0:4004:c1b::71, 2607:f8b0:4004:c1b::65, 142.251.111.101, 142.251.111.100, 142.251.111.138, 142.251.111.102, 142.251.111.113, 142.251.111.139
+
+DIAGNOSIS:
+  ┌─ NOTE ───────────────────────────────────────────────────────────────────┐
+  │ The OS chain and a direct DNS query disagree: 2607:f8b0:4004:c1b::64,    │
+  │ 2607:f8b0:4004:c1b::66, 2607:f8b0:4004:c1b::71, 2607:f8b0:4004:c1b::65,  │
+  │ 142.251.111.101, 142.251.111.100, 142.251.111.138, 142.251.111.102,      │
+  │ 142.251.111.113, 142.251.111.139 vs 2607:f8b0:4004:c08::8b,              │
+  │ 2607:f8b0:4004:c08::71, 2607:f8b0:4004:c08::66, 2607:f8b0:4004:c08::65,  │
+  │ 142.251.163.113, 142.251.163.100, 142.251.163.101, 142.251.163.139,      │
+  │ 142.251.163.102, 142.251.163.138. Both answers came from DNS itself, so  │
+  │ this isn't an earlier source (files/mdns) intercepting the name — it's   │
+  │ more likely two separate queries landing on different anycast/GeoDNS     │
+  │ edges, or a change between queries. If this persists for a name that     │
+  │ should be static, that's worth digging into further.                     │
+  └──────────────────────────────────────────────────────────────────────────┘
+== akamai.com ==
+[gai] Simulating name resolution for "akamai.com"...
+
+  (reality check via 168.63.129.16, systemd-resolved stub: true)
+
+RESOLUTION PATH (simulated):
+  1. Files          NOT FOUND
+  2. Dns            FOUND  2600:1408:ec00:10::1730:cb10, 2600:1408:ec00:10::1730:cb0c, 23.202.230.196, 23.202.230.208
+
+DIAGNOSIS:
+  ┌─ NOTE ───────────────────────────────────────────────────────────────────┐
+  │ The OS chain and a direct DNS query disagree:                            │
+  │ 2600:1408:ec00:10::1730:cb10, 2600:1408:ec00:10::1730:cb0c,              │
+  │ 23.202.230.196, 23.202.230.208 vs 2600:1408:c400:c::17cd:689a,           │
+  │ 2600:1408:c400:c::17cd:689b, 23.202.230.208, 23.202.230.196. Both        │
+  │ answers came from DNS itself, so this isn't an earlier source            │
+  │ (files/mdns) intercepting the name — it's more likely two separate       │
+  │ queries landing on different anycast/GeoDNS edges, or a change between   │
+  │ queries. If this persists for a name that should be static, that's worth │
+  │ digging into further.                                                    │
+  └──────────────────────────────────────────────────────────────────────────┘
+== cloudfront.net ==
+[gai] Simulating name resolution for "cloudfront.net"...
+
+  (reality check via 168.63.129.16, systemd-resolved stub: true)
+
+RESOLUTION PATH (simulated):
+  1. Files          NOT FOUND
+  2. Dns            NOT FOUND
+
+DIAGNOSIS:
+  ┌─ OK ─────────────────────────────────────────────────────────────────────┐
+  │ Resolution failed through the full chain, and a direct DNS query agrees  │
+  │ — this name doesn't resolve.                                             │
+  └──────────────────────────────────────────────────────────────────────────┘
+== fastly.net ==
+[gai] Simulating name resolution for "fastly.net"...
+
+  (reality check via 168.63.129.16, systemd-resolved stub: true)
+
+RESOLUTION PATH (simulated):
+  1. Files          NOT FOUND
+  2. Dns            FOUND  2a04:4e42::262, 2a04:4e42:200::262, 2a04:4e42:400::262, 2a04:4e42:600::262, 151.101.1.6, 151.101.65.6, 151.101.129.6, 151.101.193.6
+
+DIAGNOSIS:
+  ┌─ OK ─────────────────────────────────────────────────────────────────────┐
+  │ Resolution succeeded and matches direct DNS. No discrepancy found.       │
+  └──────────────────────────────────────────────────────────────────────────┘
+== netflix.com ==
+[gai] Simulating name resolution for "netflix.com"...
+
+  (reality check via 168.63.129.16, systemd-resolved stub: true)
+
+RESOLUTION PATH (simulated):
+  1. Files          NOT FOUND
+  2. Dns            FOUND  2600:1f18:631e:2f83:49ee:beaa:2dfd:ae8f, 2600:1f18:631e:2f84:4f7a:4092:e2e9:c617, 2600:1f18:631e:2f85:93a9:f7b0:d18:89a7, 3.230.129.93, 54.237.226.164, 52.3.144.142
+
+DIAGNOSIS:
+  ┌─ NOTE ───────────────────────────────────────────────────────────────────┐
+  │ The OS chain and a direct DNS query disagree:                            │
+  │ 2600:1f18:631e:2f83:49ee:beaa:2dfd:ae8f,                                 │
+  │ 2600:1f18:631e:2f84:4f7a:4092:e2e9:c617,                                 │
+  │ 2600:1f18:631e:2f85:93a9:f7b0:d18:89a7, 3.230.129.93, 54.237.226.164,    │
+  │ 52.3.144.142 vs 2600:1f18:631e:2f83:49ee:beaa:2dfd:ae8f,                 │
+  │ 2600:1f18:631e:2f85:93a9:f7b0:d18:89a7,                                  │
+  │ 2600:1f18:631e:2f84:4f7a:4092:e2e9:c617, 3.225.92.8, 54.160.93.182,      │
+  │ 3.211.157.115. Both answers came from DNS itself, so this isn't an       │
+  │ earlier source (files/mdns) intercepting the name — it's more likely two │
+  │ separate queries landing on different anycast/GeoDNS edges, or a change  │
+  │ between queries. If this persists for a name that should be static,      │
+  │ that's worth digging into further.                                       │
+  └──────────────────────────────────────────────────────────────────────────┘
+== discord.com ==
+[gai] Simulating name resolution for "discord.com"...
+
+  (reality check via 168.63.129.16, systemd-resolved stub: true)
+
+RESOLUTION PATH (simulated):
+  1. Files          NOT FOUND
+  2. Dns            FOUND  162.159.138.232, 162.159.135.232, 162.159.137.232, 162.159.136.232, 162.159.128.233
+
+DIAGNOSIS:
+  ┌─ OK ─────────────────────────────────────────────────────────────────────┐
+  │ Resolution succeeded and matches direct DNS. No discrepancy found.       │
+  └──────────────────────────────────────────────────────────────────────────┘
+== 1.1.1.1.nip.io ==
+[gai] Simulating name resolution for "1.1.1.1.nip.io"...
+
+  (reality check via 168.63.129.16, systemd-resolved stub: true)
+
+RESOLUTION PATH (simulated):
+  1. Files          NOT FOUND
+  2. Dns            FOUND  1.1.1.1
+
+DIAGNOSIS:
+  ┌─ OK ─────────────────────────────────────────────────────────────────────┐
+  │ Resolution succeeded and matches direct DNS. No discrepancy found.       │
+  └──────────────────────────────────────────────────────────────────────────┘
+== localhost ==
+[gai] Simulating name resolution for "localhost"...
+
+  (reality check via 168.63.129.16, systemd-resolved stub: true)
+
+RESOLUTION PATH (simulated):
+  1. Files          FOUND  127.0.0.1, ::1
+
+DIAGNOSIS:
+  ┌─ OK ─────────────────────────────────────────────────────────────────────┐
+  │ Resolution succeeded and matches direct DNS. No discrepancy found.       │
+  └──────────────────────────────────────────────────────────────────────────┘
+== a-record-only-test.example.com ==
+[gai] Simulating name resolution for "a-record-only-test.example.com"...
+
+  (reality check via 168.63.129.16, systemd-resolved stub: true)
+
+RESOLUTION PATH (simulated):
+  1. Files          NOT FOUND
+  2. Dns            NOT FOUND
+
+DIAGNOSIS:
+  ┌─ OK ─────────────────────────────────────────────────────────────────────┐
+  │ Resolution failed through the full chain, and a direct DNS query agrees  │
+  │ — this name doesn't resolve.                                             │
+  └──────────────────────────────────────────────────────────────────────────┘
+== aaaa-only-test.example.com ==
+[gai] Simulating name resolution for "aaaa-only-test.example.com"...
+
+  (reality check via 168.63.129.16, systemd-resolved stub: true)
+
+RESOLUTION PATH (simulated):
+  1. Files          NOT FOUND
+  2. Dns            NOT FOUND
+
+DIAGNOSIS:
+  ┌─ OK ─────────────────────────────────────────────────────────────────────┐
+  │ Resolution failed through the full chain, and a direct DNS query agrees  │
+  │ — this name doesn't resolve.                                             │
+  └──────────────────────────────────────────────────────────────────────────┘
+== ipv6.google.com ==
+[gai] Simulating name resolution for "ipv6.google.com"...
+
+  (reality check via 168.63.129.16, systemd-resolved stub: true)
+
+RESOLUTION PATH (simulated):
+  1. Files          NOT FOUND
+  2. Dns            FOUND  2607:f8b0:4004:c21::65, 2607:f8b0:4004:c21::8b, 2607:f8b0:4004:c21::64, 2607:f8b0:4004:c21::8a
+
+DIAGNOSIS:
+  ┌─ NOTE ───────────────────────────────────────────────────────────────────┐
+  │ The OS chain and a direct DNS query disagree: 2607:f8b0:4004:c21::65,    │
+  │ 2607:f8b0:4004:c21::8b, 2607:f8b0:4004:c21::64, 2607:f8b0:4004:c21::8a   │
+  │ vs 2607:f8b0:4004:c17::8a, 2607:f8b0:4004:c17::64,                       │
+  │ 2607:f8b0:4004:c17::8b, 2607:f8b0:4004:c17::71. Both answers came from   │
+  │ DNS itself, so this isn't an earlier source (files/mdns) intercepting    │
+  │ the name — it's more likely two separate queries landing on different    │
+  │ anycast/GeoDNS edges, or a change between queries. If this persists for  │
+  │ a name that should be static, that's worth digging into further.         │
+  └──────────────────────────────────────────────────────────────────────────┘
+== resolver-test.opendns.com ==
+[gai] Simulating name resolution for "resolver-test.opendns.com"...
+
+  (reality check via 168.63.129.16, systemd-resolved stub: true)
+
+RESOLUTION PATH (simulated):
+  1. Files          NOT FOUND
+  2. Dns            NOT FOUND
+
+DIAGNOSIS:
+  ┌─ OK ─────────────────────────────────────────────────────────────────────┐
+  │ Resolution failed through the full chain, and a direct DNS query agrees  │
+  │ — this name doesn't resolve.                                             │
+  └──────────────────────────────────────────────────────────────────────────┘
