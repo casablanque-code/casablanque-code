@@ -52,14 +52,18 @@ jobs:
           echo "timestamp=$(date -u +'%Y-%m-%d %H:%M UTC')" >> "$GITHUB_OUTPUT"
 
       - name: Update rolling 30-day window
-        run: python3 scripts/radar_update_window.py \
-          --diverged "${{ steps.run.outputs.diverged }}" \
-          --checked "${{ steps.run.outputs.checked }}" \
-          --date "$(date -u +%Y-%m-%d)"
+        env:
+          DIVERGED: ${{ steps.run.outputs.diverged }}
+          CHECKED: ${{ steps.run.outputs.checked }}
+        run: |
+          TODAY="$(date -u +%Y-%m-%d)"
+          python3 scripts/radar_update_window.py --diverged "$DIVERGED" --checked "$CHECKED" --date "$TODAY"
 
       - name: Update README radar block
-        run: python3 scripts/radar_update_readme.py \
-          --timestamp "${{ steps.run.outputs.timestamp }}"
+        env:
+          TIMESTAMP: ${{ steps.run.outputs.timestamp }}
+        run: |
+          python3 scripts/radar_update_readme.py --timestamp "$TIMESTAMP"
 
       - name: Commit if changed
         run: |
