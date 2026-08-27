@@ -45,6 +45,11 @@ def main():
     text = README.read_text()
     pattern = re.compile(START_RE.pattern + r".*?" + END_RE.pattern, re.DOTALL)
     if not pattern.search(text):
+        print("--- DEBUG: markers not found. Lines containing 'AUTO-GENERATED': ---")
+        for i, line in enumerate(text.splitlines(), 1):
+            if "AUTO-GENERATED" in line or "auto-generated" in line.lower():
+                print(f"{i}: {line!r}")
+        print("--- END DEBUG ---")
         raise SystemExit("AUTO-GENERATED markers not found in README.md")
     text = pattern.sub(block, text)
     README.write_text(text)
