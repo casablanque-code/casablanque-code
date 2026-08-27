@@ -34,6 +34,17 @@ Then I go find out. **friction → investigation → hypothesis → tool.** The 
 
 <!-- /AUTO-GENERATED-SIG -->
 
+
+<!-- AUTO-GENERATED-LEADERBOARD -->
+
+**Most disagreeing domains (30 days)**
+
+| Domain | Divergences |
+| :--- | ---: |
+| _(no data yet)_ | — |
+
+<!-- /AUTO-GENERATED-LEADERBOARD -->
+
 ---
 
 ### Trust & Identity
