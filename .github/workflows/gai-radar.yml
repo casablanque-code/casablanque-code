@@ -59,21 +59,11 @@ jobs:
           TODAY="$(date -u +%Y-%m-%d)"
           python3 scripts/radar_update_window.py --diverged "$DIVERGED" --checked "$CHECKED" --date "$TODAY"
 
-      - name: DEBUG - show what's actually checked out
-        run: |
-          echo "=== git branch/commit ==="
-          git branch --show-current
-          git log -1 --oneline
-          echo "=== scripts/radar_update_readme.py first 5 lines ==="
-          head -5 scripts/radar_update_readme.py
-          echo "=== grep for AUTO-GENERATED in README.md ==="
-          grep -n "AUTO-GENERATED" README.md || echo "NO MATCHES FOUND"
-
       - name: Update README radar block
         env:
           TIMESTAMP: ${{ steps.run.outputs.timestamp }}
         run: |
-          python3 scripts/radar_update_readme.py --timestamp "$TIMESTAMP"
+          python3 scripts/radar_update_readme.py --timestamp "$TIMESTAMP" --repo "${{ github.repository }}"
 
       - name: Commit if changed
         run: |
