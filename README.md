@@ -16,7 +16,7 @@ Then I go find out. **friction → investigation → hypothesis → tool.** The 
 
 ---
 
-## Live Radar
+## Live Radar (based on [gai](https://github.com/casablanque-code/gai))
 
 <!-- AUTO-GENERATED -->
 
