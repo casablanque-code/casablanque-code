@@ -23,6 +23,7 @@ jobs:
         run: |
           set -uo pipefail
           mkdir -p .radar
+          rm -f .radar/diverged-today.txt
           RAW_LOG=".radar/raw-$(date -u +%Y%m%d).log"
           DIVERGED=0
           CHECKED=0
@@ -58,6 +59,17 @@ jobs:
         run: |
           TODAY="$(date -u +%Y-%m-%d)"
           python3 scripts/radar_update_window.py --diverged "$DIVERGED" --checked "$CHECKED" --date "$TODAY"
+
+      - name: Track diverging domains
+        run: python3 scripts/radar_track_domains.py
+
+      - name: Update status badge
+        env:
+          DIVERGED: ${{ steps.run.outputs.diverged }}
+        run: python3 scripts/radar_update_status.py --diverged "$DIVERGED"
+
+      - name: Update leaderboard
+        run: python3 scripts/radar_update_leaderboard.py
 
       - name: Update README radar block
         env:
