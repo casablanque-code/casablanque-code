@@ -16,9 +16,9 @@ Then I go find out. **friction → investigation → hypothesis → tool.** The 
 
 <!-- AUTO-GENERATED -->
 
-**Resolution divergence** (`gai doctor` per-domain reality check) - last run `2026-08-27 19:54 UTC`
-> 5 divergence(s) in the last 1 days across 14 tracked domains -- most recent on 2026-08-27.
-> _(see .radar/history.json for the full log)_
+**Resolution divergence** (`gai doctor` per-domain reality check) - last run `2026-08-27 20:00 UTC`
+> 3 divergence(s) in the last 1 days across 14 tracked domains -- most recent on 2026-08-27.
+> _(mostly anycast/GeoDNS edges disagreeing between two queries -- see .radar/history.json for the full log)_
 
 <!-- /AUTO-GENERATED -->
 
