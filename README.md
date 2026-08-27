@@ -1,12 +1,8 @@
 # Engineering, mostly at the edges of intuition
 
-<!-- AUTO-GENERATED -->
-
-**Resolution divergence** (`gai doctor` per-domain reality check) - last run `2026-08-27 20:42 UTC`
-> 5 divergence(s) in the last 1 days across 14 tracked domains -- most recent on 2026-08-27.
-> _(mostly anycast/GeoDNS edges disagreeing between two queries -- [full per-domain log for 2026-08-27](https://github.com/casablanque-code/casablanque-code/blob/main/.radar/raw-20260827.log))_
-
-<!-- /AUTO-GENERATED -->
+<!-- AUTO-GENERATED-STATUS -->
+🟢 **Radar status:** 0 findings today
+<!-- /AUTO-GENERATED-STATUS -->
 
 I build small tools around systems where the obvious explanation is often not quite true.
 
