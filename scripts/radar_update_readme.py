@@ -40,7 +40,8 @@ def main():
         divergence_line = (
             f"> {total_diverged} divergence(s) in the last {days_covered} days "
             f"across {domains_tracked} tracked domains -- most recent on {recent['date']}.\n"
-            f"> _(see .radar/history.json for the full log)_"
+            f"> _(mostly anycast/GeoDNS edges disagreeing between two queries -- "
+            f"see .radar/history.json for the full log)_"
         )
 
     new_block = [
