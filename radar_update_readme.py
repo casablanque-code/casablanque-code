@@ -19,6 +19,7 @@ def find_marker_line(lines, needle, exclude=None):
 
 
 def main():
+    print("SCRIPT VERSION: radar_update_readme.py v3 (line-based, no regex)", flush=True)
     p = argparse.ArgumentParser()
     p.add_argument("--timestamp", required=True)
     args = p.parse_args()
