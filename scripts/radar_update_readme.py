@@ -19,9 +19,10 @@ def find_marker_line(lines, needle, exclude=None):
 
 
 def main():
-    print("SCRIPT VERSION: radar_update_readme.py v3 (line-based, no regex)", flush=True)
+    print("SCRIPT VERSION: radar_update_readme.py v4 (line-based, no regex)", flush=True)
     p = argparse.ArgumentParser()
     p.add_argument("--timestamp", required=True)
+    p.add_argument("--repo", required=True, help="owner/repo, for building the raw-log link")
     args = p.parse_args()
 
     history = json.loads(HISTORY.read_text()) if HISTORY.exists() else []
@@ -37,11 +38,16 @@ def main():
         )
     else:
         recent = [h for h in history if h["diverged"] > 0][-1]
+        log_date_compact = recent["date"].replace("-", "")
+        log_url = (
+            f"https://github.com/{args.repo}/blob/main/"
+            f".radar/raw-{log_date_compact}.log"
+        )
         divergence_line = (
             f"> {total_diverged} divergence(s) in the last {days_covered} days "
             f"across {domains_tracked} tracked domains -- most recent on {recent['date']}.\n"
             f"> _(mostly anycast/GeoDNS edges disagreeing between two queries -- "
-            f"see .radar/history.json for the full log)_"
+            f"[full per-domain log for {recent['date']}]({log_url}))_"
         )
 
     new_block = [
