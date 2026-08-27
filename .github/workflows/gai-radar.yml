@@ -1,0 +1,70 @@
+name: gai divergence radar
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install gai
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/casablanque-code/gai/main/install.sh | sudo bash
+
+      - name: Run divergence check
+        id: run
+        run: |
+          set -uo pipefail
+          mkdir -p .radar
+          RAW_LOG=".radar/raw-$(date -u +%Y%m%d).log"
+          DIVERGED=0
+          CHECKED=0
+
+          while IFS= read -r line; do
+            # strip comments / blank lines
+            domain="${line%%#*}"
+            domain="$(echo "$domain" | xargs)"
+            [ -z "$domain" ] && continue
+
+            CHECKED=$((CHECKED+1))
+            echo "== $domain ==" >> "$RAW_LOG"
+
+            # gai doctor exits non-zero on discrepancy per its own diagnosis;
+            # capture output regardless of exit code
+            OUT="$(gai doctor "$domain" 2>&1)" || true
+            echo "$OUT" >> "$RAW_LOG"
+
+            if echo "$OUT" | grep -qi "disagree"; then
+              DIVERGED=$((DIVERGED+1))
+              echo "$domain" >> .radar/diverged-today.txt
+            fi
+          done < domains.txt
+
+          echo "checked=$CHECKED" >> "$GITHUB_OUTPUT"
+          echo "diverged=$DIVERGED" >> "$GITHUB_OUTPUT"
+          echo "timestamp=$(date -u +'%Y-%m-%d %H:%M UTC')" >> "$GITHUB_OUTPUT"
+
+      - name: Update rolling 30-day window
+        run: python3 scripts/radar_update_window.py \
+          --diverged "${{ steps.run.outputs.diverged }}" \
+          --checked "${{ steps.run.outputs.checked }}" \
+          --date "$(date -u +%Y-%m-%d)"
+
+      - name: Update README radar block
+        run: python3 scripts/radar_update_readme.py \
+          --timestamp "${{ steps.run.outputs.timestamp }}"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add README.md .radar/
+          git diff --cached --quiet || git commit -m "radar: gai divergence check ${{ steps.run.outputs.timestamp }}"
+          git push
