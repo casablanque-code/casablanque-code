@@ -14,21 +14,7 @@ Then I go find out. **friction → investigation → hypothesis → tool.** The 
 
 ## Live Radar
 
-<!-- AUTO-GENERATED -->
 
-**Resolution divergence** (`gai doctor` per-domain reality check) - last run `2026-08-27 20:00 UTC`
-> 3 divergence(s) in the last 1 days across 14 tracked domains -- most recent on 2026-08-27.
-> _(mostly anycast/GeoDNS edges disagreeing between two queries -- see .radar/history.json for the full log)_
-
-<!-- /AUTO-GENERATED -->
-
-<!-- AUTO-GENERATED-SIG -->
-
-**README integrity** · signed `2026-08-27 20:13 UTC` · [verify](https://github.com/casablanque-code/casablanque-code/blob/main/README.stable.md.sig)
-> `SHA256: 9c14599a7020c96c…` · [my PGP key](https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683)
-> Zero Trust isn't just for infra. Don't trust this file either -- verify it.
-
-<!-- /AUTO-GENERATED-SIG -->
 
 ---
 
