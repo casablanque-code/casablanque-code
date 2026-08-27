@@ -1,0 +1,17 @@
+# gai divergence radar — target domains
+# one per line, "domain # why it's a plausible divergence candidate"
+
+cloudflare.com          # anycast + geo-steered, high chance of A/AAAA ordering differences
+github.com               # Fastly-backed, dual-stack, known to shuffle record order
+google.com                # heavy geo-DNS, short TTL, edge-dependent answers
+akamai.com                 # canonical CDN-via-CNAME chain, good test of chain resolution
+cloudfront.net              # AWS CDN, CNAME chains + regional edge nodes
+fastly.net                   # anycast edge network, short TTLs
+netflix.com                   # known for aggressive, region-specific DNS steering
+discord.com                    # dual-stack with rotating edge IPs
+1.1.1.1.nip.io                  # sanity control: should never diverge (literal IP encoding)
+localhost                        # sanity control: always 127.0.0.1/::1, catches nsswitch bugs
+a-record-only-test.example.com    # placeholder: swap for a domain you control with only an A record
+aaaa-only-test.example.com         # placeholder: swap for a domain you control with only AAAA
+ipv6.google.com                     # forces AAAA-heavy path, tests dual-stack ordering logic
+resolver-test.opendns.com            # OpenDNS's own diagnostic domain, sometimes returns resolver metadata
