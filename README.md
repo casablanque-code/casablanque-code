@@ -14,17 +14,21 @@ Then I go find out. **friction → investigation → hypothesis → tool.** The 
 
 ## Live Radar
 
-<!-- AUTO-GENERATED — do not edit manually, see .github/workflows/*.yml -->
+<!-- AUTO-GENERATED — do not edit manually, see .github/workflows/gai-radar.yml -->
 
-**Resolution divergence** (`gai` vs naive `dig`) · last run `2026-08-27 06:00 UTC`
+**Resolution divergence** (`gai doctor` per-domain reality check) · last run `2026-08-27 06:00 UTC`
 > 0 divergences in the last 30 days across 14 tracked domains — dig hasn't lied yet.
 > _(when it does, this line changes — that's the interesting part)_
+
+<!-- /AUTO-GENERATED -->
+
+<!-- AUTO-GENERATED-SIG — do not edit manually, see .github/workflows/sign-readme.yml -->
 
 **README integrity** · signed `2026-08-27 06:00 UTC` · [verify](./README.stable.md.sig)
 > `SHA256: a1b2c3d4…` · [my PGP key](https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683)
 > Zero Trust ain't just for infra. Don't trust this file either - verify it.
 
-<!-- /AUTO-GENERATED -->
+<!-- /AUTO-GENERATED-SIG -->
 
 ---
 
