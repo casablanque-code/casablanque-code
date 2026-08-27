@@ -8,8 +8,8 @@ from pathlib import Path
 README = Path("README.md")
 HISTORY = Path(".radar/history.json")
 
-START = "<!-- AUTO-GENERATED — do not edit manually, see .github/workflows/*.yml -->"
-END = "<!-- /AUTO-GENERATED -->"
+START_RE = re.compile(r"<!--\s*AUTO-GENERATED\b(?!-SIG).*?-->")
+END_RE = re.compile(r"<!--\s*/AUTO-GENERATED\s*-->")
 
 def main():
     p = argparse.ArgumentParser()
@@ -35,15 +35,15 @@ def main():
             f"> _(see .radar/history.json for the full log)_"
         )
 
-    block = f"""{START}
+    block = f"""<!-- AUTO-GENERATED — do not edit manually, see .github/workflows/gai-radar.yml -->
 
 **Resolution divergence** (`gai doctor` per-domain reality check) · last run `{args.timestamp}`
 {divergence_line}
 
-{END}"""
+<!-- /AUTO-GENERATED -->"""
 
     text = README.read_text()
-    pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.DOTALL)
+    pattern = re.compile(START_RE.pattern + r".*?" + END_RE.pattern, re.DOTALL)
     if not pattern.search(text):
         raise SystemExit("AUTO-GENERATED markers not found in README.md")
     text = pattern.sub(block, text)
