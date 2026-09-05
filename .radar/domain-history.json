@@ -81,5 +81,14 @@
       "akamai.com",
       "ipv6.google.com"
     ]
+  },
+  {
+    "date": "2026-09-05",
+    "domains": [
+      "github.com",
+      "google.com",
+      "netflix.com",
+      "ipv6.google.com"
+    ]
   }
 ]
