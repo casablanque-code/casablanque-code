@@ -4,6 +4,8 @@
 🔴 **Radar status:** 4 findings today
 <!-- /AUTO-GENERATED-STATUS -->
 
+---
+
 I build and break things around systems where the obvious explanation is often not quite true.
 
 Usually it starts with:
@@ -54,10 +56,15 @@ Then I go find out. **friction → investigation → hypothesis → tool.** The 
 We usually treat trust as a fact.
 Turns out, it's something systems have to fucking keep proving.
 
-* **[khm](https://github.com/casablanque-code/khm)** - `known_hosts` is not just a cache. It's a database of server identities.
-* **[cfzt](https://github.com/casablanque-code/cfzt)** - Zero Trust is less about replacing a VPN and more about identity, reachability and continuously verifying state.
-* **[gai](https://github.com/casablanque-code/gai)** - `dig` working doesn't mean your process resolves the name the same way. Reconstructs the actual `getaddrinfo()` decision path.
-* **[burnafterread](https://github.com/casablanque-code/burnafterread)** - sharing a secret doesn't have to mean giving the server access to it. [`live`](https://burnafterread.casablanque.com/)
+* **[khm](https://github.com/casablanque-code/khm)**
+`known_hosts` is not just a cache. It's a database of server identities.
+* **[cfzt](https://github.com/casablanque-code/cfzt)**
+Zero Trust is less about replacing a VPN and more about identity, reachability and continuously verifying state.
+* **[gai](https://github.com/casablanque-code/gai)**
+`dig` working doesn't mean your process resolves the name the same way. Reconstructs the actual `getaddrinfo()` decision path.
+* **[burnafterread](https://github.com/casablanque-code/burnafterread)**
+sharing a secret doesn't have to mean giving the server access to it. [`live`](https://burnafterread.casablanque.com/)
+
 ### Measurement
 
 We usually treat latency as noise.
