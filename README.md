@@ -4,11 +4,7 @@
 🔴 **Radar status:** 4 findings today
 <!-- /AUTO-GENERATED-STATUS -->
 
----
-
-I build small tools around systems where the obvious explanation is often not quite true.
-
-DNS, SSH, Zero Trust, timing, packet captures, configuration formats, infrastructure - things we've had for years and think we already understand.
+I build and break things around systems where the obvious explanation is often not quite true.
 
 Usually it starts with:
 
@@ -93,7 +89,7 @@ But most "automation" is just someone's assumptions, hardcoded and left to rot.
 ---
 
 <details>
-<summary>A few libs</summary>
+<summary>A few libs extracted from the tools</summary>
 
 | Library / Package | Version | Docs | Downloads |
 | :--- | :--- | :--- | :--- |
