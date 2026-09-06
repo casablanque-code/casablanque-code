@@ -56,13 +56,13 @@ Then I go find out. **friction → investigation → hypothesis → tool.** The 
 We usually treat trust as a fact.
 Turns out, it's something systems have to fucking keep proving.
 
-* **[khm](https://github.com/casablanque-code/khm)**
+* **[khm](https://github.com/casablanque-code/khm)**  
 `known_hosts` is not just a cache. It's a database of server identities.
-* **[cfzt](https://github.com/casablanque-code/cfzt)**
+* **[cfzt](https://github.com/casablanque-code/cfzt)**  
 Zero Trust is less about replacing a VPN and more about identity, reachability and continuously verifying state.
-* **[gai](https://github.com/casablanque-code/gai)**
+* **[gai](https://github.com/casablanque-code/gai)**  
 `dig` working doesn't mean your process resolves the name the same way. Reconstructs the actual `getaddrinfo()` decision path.
-* **[burnafterread](https://github.com/casablanque-code/burnafterread)**
+* **[burnafterread](https://github.com/casablanque-code/burnafterread)**  
 sharing a secret doesn't have to mean giving the server access to it. [`live`](https://burnafterread.casablanque.com/)
 
 ### Measurement
@@ -70,7 +70,8 @@ sharing a secret doesn't have to mean giving the server access to it. [`live`](h
 We usually treat latency as noise.
 Turns out, sometimes the measurement is the attack surface.  
 
-* **[sidecheck](https://github.com/casablanque-code/sidecheck)** - remote timing side-channel detection using statistics instead of a stopwatch.
+* **[sidecheck](https://github.com/casablanque-code/sidecheck)**  
+remote timing side-channel detection using statistics instead of a stopwatch.
 
 ### Network Forensics
 
@@ -78,10 +79,14 @@ Packets are evidence, not truth.
 
 **[Network Forensics Series](https://github.com/stars/casablanque-code/lists/network-forensics)**
 
-* **[ospf-postmortem](https://github.com/casablanque-code/ospf-postmortem)** - reconstruct the OSPF FSM and find why an adjacency got stuck. [`live`](https://ospf.postmortem.casablanque.com/)
-* **[dhcp-postmortem](https://github.com/casablanque-code/dhcp-postmortem)** - reconstruct DORA and detect failures from packet evidence. [`live`](https://dhcp.postmortem.casablanque.com/)
-* **[stp-postmortem](https://github.com/casablanque-code/stp-postmortem)** - reconstruct STP/RSTP behaviour, topology changes and root causes. [`live`](https://stp.postmortem.casablanque.com/)
-* **[dns-postmortem](https://github.com/casablanque-code/dns-postmortem)** - DNS traffic, anomaly detection and tunneling analysis. [`live`](https://dns.postmortem.casablanque.com/)
+* **[ospf-postmortem](https://github.com/casablanque-code/ospf-postmortem)**  
+reconstruct the OSPF FSM and find why an adjacency got stuck. [`live`](https://ospf.postmortem.casablanque.com/)
+* **[dhcp-postmortem](https://github.com/casablanque-code/dhcp-postmortem)**  
+reconstruct DORA and detect failures from packet evidence. [`live`](https://dhcp.postmortem.casablanque.com/)
+* **[stp-postmortem](https://github.com/casablanque-code/stp-postmortem)**  
+reconstruct STP/RSTP behaviour, topology changes and root causes. [`live`](https://stp.postmortem.casablanque.com/)
+* **[dns-postmortem](https://github.com/casablanque-code/dns-postmortem)**  
+DNS traffic, anomaly detection and tunneling analysis. [`live`](https://dns.postmortem.casablanque.com/)
 > *Everything runs locally in the browser. PCAPs never leave the machine.*
 
 ### Semantics & Infrastructure
@@ -89,9 +94,12 @@ Packets are evidence, not truth.
 Some problems look like parsing or automation problems until you look closer.
 But most "automation" is just someone's assumptions, hardcoded and left to rot.
 
-* **[netconv](https://github.com/casablanque-code/netconv)** - configuration conversion is about semantics, not replacing keywords.
-* **[pcap-frame-parser](https://github.com/casablanque-code/pcap-frame-parser)** - packet formats have decades of edge cases hiding behind deceptively simple structures.
-* **[platform-infra](https://github.com/casablanque-code/platform-infra)** - self-service infrastructure for small teams, without turning the sysadmin into an API.
+* **[netconv](https://github.com/casablanque-code/netconv)**  
+configuration conversion is about semantics, not replacing keywords.
+* **[pcap-frame-parser](https://github.com/casablanque-code/pcap-frame-parser)**  
+packet formats have decades of edge cases hiding behind deceptively simple structures.
+* **[platform-infra](https://github.com/casablanque-code/platform-infra)**  
+self-service infrastructure for small teams, without turning the sysadmin into an API.
 
 ---
 
