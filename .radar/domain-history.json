@@ -170,5 +170,13 @@
       "google.com",
       "ipv6.google.com"
     ]
+  },
+  {
+    "date": "2026-09-15",
+    "domains": [
+      "github.com",
+      "google.com",
+      "ipv6.google.com"
+    ]
   }
 ]
