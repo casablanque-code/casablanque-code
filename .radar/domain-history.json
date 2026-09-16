@@ -178,5 +178,12 @@
       "google.com",
       "ipv6.google.com"
     ]
+  },
+  {
+    "date": "2026-09-16",
+    "domains": [
+      "google.com",
+      "ipv6.google.com"
+    ]
   }
 ]
