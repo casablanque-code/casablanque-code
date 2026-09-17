@@ -185,5 +185,13 @@
       "google.com",
       "ipv6.google.com"
     ]
+  },
+  {
+    "date": "2026-09-17",
+    "domains": [
+      "google.com",
+      "netflix.com",
+      "ipv6.google.com"
+    ]
   }
 ]
