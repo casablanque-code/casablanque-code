@@ -219,5 +219,15 @@
       "netflix.com",
       "ipv6.google.com"
     ]
+  },
+  {
+    "date": "2026-09-21",
+    "domains": [
+      "github.com",
+      "google.com",
+      "akamai.com",
+      "netflix.com",
+      "ipv6.google.com"
+    ]
   }
 ]
