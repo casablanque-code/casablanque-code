@@ -17,9 +17,9 @@ Then I go find out. **friction → investigation → hypothesis → tool.** The 
 
 <!-- AUTO-GENERATED -->
 
-**Resolution divergence** (`gai doctor` per-domain reality check) - last run `2026-09-21 11:27 UTC`
-> 101 divergence(s) in the last 26 days across 14 tracked domains -- most recent on 2026-09-21.
-> _(mostly anycast/GeoDNS edges disagreeing between two queries -- [full per-domain log for 2026-09-21](https://github.com/casablanque-code/casablanque-code/blob/main/.radar/raw-20260921.log))_
+**Resolution divergence** (`gai doctor` per-domain reality check) - last run `2026-09-22 10:35 UTC`
+> 105 divergence(s) in the last 27 days across 14 tracked domains -- most recent on 2026-09-22.
+> _(mostly anycast/GeoDNS edges disagreeing between two queries -- [full per-domain log for 2026-09-22](https://github.com/casablanque-code/casablanque-code/blob/main/.radar/raw-20260922.log))_
 
 <!-- /AUTO-GENERATED -->
 
@@ -31,11 +31,11 @@ Then I go find out. **friction → investigation → hypothesis → tool.** The 
 
 | Domain | Divergences |
 | :--- | ---: |
-| `google.com` | 25 |
-| `ipv6.google.com` | 25 |
+| `google.com` | 26 |
+| `ipv6.google.com` | 26 |
+| `netflix.com` | 20 |
 | `github.com` | 19 |
-| `netflix.com` | 19 |
-| `akamai.com` | 13 |
+| `akamai.com` | 14 |
 
 <!-- /AUTO-GENERATED-LEADERBOARD -->
 
