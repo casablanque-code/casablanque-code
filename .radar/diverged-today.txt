@@ -2,3 +2,4 @@ github.com
 google.com
 akamai.com
 netflix.com
+ipv6.google.com
