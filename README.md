@@ -1,7 +1,7 @@
 # Engineering, mostly at the edges of intuition
 
 <!-- AUTO-GENERATED-STATUS -->
-🔴 **Radar status:** 5 findings today
+🔴 **Radar status:** 4 findings today
 <!-- /AUTO-GENERATED-STATUS -->
 
 ---
@@ -20,9 +20,9 @@ Then I go find out. **friction → investigation → hypothesis → tool.** The 
 
 <!-- AUTO-GENERATED -->
 
-**Resolution divergence** (`gai doctor` per-domain reality check) - last run `2026-09-29 11:48 UTC`
-> 116 divergence(s) in the last 30 days across 14 tracked domains -- most recent on 2026-09-29.
-> _(mostly anycast/GeoDNS edges disagreeing between two queries -- [full per-domain log for 2026-09-29](https://github.com/casablanque-code/casablanque-code/blob/main/.radar/raw-20260929.log))_
+**Resolution divergence** (`gai doctor` per-domain reality check) - last run `2026-09-30 11:35 UTC`
+> 116 divergence(s) in the last 30 days across 14 tracked domains -- most recent on 2026-09-30.
+> _(mostly anycast/GeoDNS edges disagreeing between two queries -- [full per-domain log for 2026-09-30](https://github.com/casablanque-code/casablanque-code/blob/main/.radar/raw-20260930.log))_
 
 <!-- /AUTO-GENERATED -->
 
