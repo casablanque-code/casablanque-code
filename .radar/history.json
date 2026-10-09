@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-09-09",
-    "checked": 14,
-    "diverged": 5
-  },
-  {
     "date": "2026-09-10",
     "checked": 14,
     "diverged": 4
@@ -148,5 +143,10 @@
     "date": "2026-10-08",
     "checked": 14,
     "diverged": 3
+  },
+  {
+    "date": "2026-10-09",
+    "checked": 14,
+    "diverged": 4
   }
 ]
