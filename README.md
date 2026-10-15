@@ -1,7 +1,7 @@
 # Engineering, mostly at the edges of intuition
 
 <!-- AUTO-GENERATED-STATUS -->
-🔴 **Radar status:** 3 findings today
+🔴 **Radar status:** 2 findings today
 <!-- /AUTO-GENERATED-STATUS -->
 
 ---
@@ -20,9 +20,9 @@ Then I go find out. **friction → investigation → hypothesis → tool.** The 
 
 <!-- AUTO-GENERATED -->
 
-**Resolution divergence** (`gai doctor` per-domain reality check) - last run `2026-10-14 10:52 UTC`
-> 118 divergence(s) in the last 30 days across 14 tracked domains -- most recent on 2026-10-14.
-> _(mostly anycast/GeoDNS edges disagreeing between two queries -- [full per-domain log for 2026-10-14](https://github.com/casablanque-code/casablanque-code/blob/main/.radar/raw-20261014.log))_
+**Resolution divergence** (`gai doctor` per-domain reality check) - last run `2026-10-15 10:33 UTC`
+> 117 divergence(s) in the last 30 days across 14 tracked domains -- most recent on 2026-10-15.
+> _(mostly anycast/GeoDNS edges disagreeing between two queries -- [full per-domain log for 2026-10-15](https://github.com/casablanque-code/casablanque-code/blob/main/.radar/raw-20261015.log))_
 
 <!-- /AUTO-GENERATED -->
 
@@ -42,7 +42,7 @@ Then I go find out. **friction → investigation → hypothesis → tool.** The 
 | Domain | Divergences |
 | :--- | ---: |
 | `google.com` | 29 |
-| `ipv6.google.com` | 27 |
+| `ipv6.google.com` | 26 |
 | `netflix.com` | 24 |
 | `github.com` | 21 |
 | `akamai.com` | 17 |
