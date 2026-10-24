@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-09-24",
-    "domains": [
-      "github.com",
-      "google.com",
-      "ipv6.google.com"
-    ]
-  },
-  {
     "date": "2026-09-25",
     "domains": [
       "github.com",
@@ -264,6 +256,14 @@
       "github.com",
       "google.com",
       "akamai.com",
+      "ipv6.google.com"
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "domains": [
+      "github.com",
+      "google.com",
       "ipv6.google.com"
     ]
   }
