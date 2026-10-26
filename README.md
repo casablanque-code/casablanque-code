@@ -28,8 +28,8 @@ Then I go find out. **friction → investigation → hypothesis → tool.** The 
 
 <!-- AUTO-GENERATED-SIG -->
 
-**README integrity** · signed `2026-10-25 11:05 UTC` · [verify](https://github.com/casablanque-code/casablanque-code/blob/main/README.stable.md.sig)
-> `SHA256: c14a8f76c50f5748…` · [my PGP key](https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683)
+**README integrity** · signed `2026-10-26 12:39 UTC` · [verify](https://github.com/casablanque-code/casablanque-code/blob/main/README.stable.md.sig)
+> `SHA256: f76c609dd3acc9fd…` · [my PGP key](https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683)
 > Zero Trust isn't just for infra. Don't trust this file either -- verify it.
 
 <!-- /AUTO-GENERATED-SIG -->
