@@ -3,8 +3,6 @@
 Network infra engineer. I build tools that check whether the obvious
 explanation is actually true, and a few systems that just got to work.
 
-[cv](https://casablanque.com) · [reach me out](mailto:casablanque@proton.me) · [PGP](https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683) · [Ko-fi](https://ko-fi.com/casablanque)
-
 ## Featured
 
 ### [A.V.E.N.G.E](https://github.com/casablanque-code/avenge): edge vibration analytics
@@ -51,3 +49,7 @@ gpg --verify README.md.sig README.md
 ```
 
 </details>
+
+---
+
+[cv](https://casablanque.com)   ·   [reach me out](mailto:casablanque@proton.me)   ·   [PGP](https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683)   ·   [Ko-fi](https://ko-fi.com/casablanque)
