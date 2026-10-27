@@ -34,6 +34,19 @@ Packets are evidence, not truth. Everything runs in the browser; PCAPs never lea
 
 [ospf](https://ospf.postmortem.casablanque.com/) · [dhcp](https://dhcp.postmortem.casablanque.com/) · [stp](https://stp.postmortem.casablanque.com/) · [dns](https://dns.postmortem.casablanque.com/)
 
+### Published
+
+<p align="center">
+  <a href="https://crates.io/crates/sidecheck"><img alt="sidecheck" src="https://img.shields.io/crates/v/sidecheck?label=sidecheck&style=flat-square"></a>
+  <a href="https://crates.io/crates/sidecheck-core"><img alt="sidecheck-core" src="https://img.shields.io/crates/v/sidecheck-core?label=sidecheck-core&style=flat-square"></a>
+  <a href="https://crates.io/crates/gai-probe"><img alt="gai-probe" src="https://img.shields.io/crates/v/gai-probe?label=gai-probe&style=flat-square"></a>
+  <a href="https://crates.io/crates/gai-core"><img alt="gai-core" src="https://img.shields.io/crates/v/gai-core?label=gai-core&style=flat-square"></a>
+  <a href="https://crates.io/crates/pcap-frame-parser"><img alt="pcap-frame-parser" src="https://img.shields.io/crates/v/pcap-frame-parser?label=pcap-frame-parser&style=flat-square"></a>
+  <a href="https://crates.io/crates/ios-config"><img alt="ios-config" src="https://img.shields.io/crates/v/ios-config?label=ios-config&style=flat-square"></a>
+  <a href="https://www.npmjs.com/package/burnafter"><img alt="burnafter" src="https://img.shields.io/npm/v/burnafter?label=burnafter&style=flat-square"></a>
+  <a href="https://www.npmjs.com/package/@lighthouse-explorer/light-parser"><img alt="light-parser" src="https://img.shields.io/npm/v/@lighthouse-explorer/light-parser?label=light-parser&style=flat-square"></a>
+</p>
+
 ---
 
 Zero Trust ain't just for infra. Don't trust this file either, verify it.
@@ -52,4 +65,9 @@ gpg --verify README.md.sig README.md
 
 ---
 
-[cv](https://casablanque.com)   ·   [reach me out](mailto:casablanque@proton.me)   ·   [PGP](https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683)   ·   [Ko-fi](https://ko-fi.com/casablanque)
+<p align="center">
+  <a href="https://casablanque.com"><img alt="cv" src="https://img.shields.io/badge/cv-casablanque.com-0d1117?style=for-the-badge"></a>
+  <a href="mailto:casablanque@proton.me"><img alt="reach me out" src="https://img.shields.io/badge/reach%20me%20out-casablanque%40proton.me-6d4aff?style=for-the-badge&logo=protonmail&logoColor=white"></a>
+  <a href="https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683"><img alt="PGP" src="https://img.shields.io/badge/PGP-0x75149683-2e7d32?style=for-the-badge&logo=gnuprivacyguard&logoColor=white"></a>
+  <a href="https://ko-fi.com/casablanque"><img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-support-ff5e5b?style=for-the-badge&logo=kofi&logoColor=white"></a>
+</p>
