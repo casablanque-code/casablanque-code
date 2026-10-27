@@ -36,7 +36,7 @@ Packets are evidence, not truth. Everything runs in the browser; PCAPs never lea
 
 ### Published
 
-<p align="center">
+<p align="left">
   <a href="https://crates.io/crates/sidecheck"><img alt="sidecheck" src="https://img.shields.io/crates/v/sidecheck?label=sidecheck&style=flat-square"></a>
   <a href="https://crates.io/crates/sidecheck-core"><img alt="sidecheck-core" src="https://img.shields.io/crates/v/sidecheck-core?label=sidecheck-core&style=flat-square"></a>
   <a href="https://crates.io/crates/gai-probe"><img alt="gai-probe" src="https://img.shields.io/crates/v/gai-probe?label=gai-probe&style=flat-square"></a>
@@ -65,9 +65,9 @@ gpg --verify README.md.sig README.md
 
 ---
 
-<p align="center">
-  <a href="https://casablanque.com"><img alt="cv" src="https://img.shields.io/badge/cv-casablanque.com-0d1117?style=for-the-badge"></a>
-  <a href="mailto:casablanque@proton.me"><img alt="reach me out" src="https://img.shields.io/badge/reach%20me%20out-casablanque%40proton.me-6d4aff?style=for-the-badge&logo=protonmail&logoColor=white"></a>
-  <a href="https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683"><img alt="PGP" src="https://img.shields.io/badge/PGP-0x75149683-2e7d32?style=for-the-badge&logo=gnuprivacyguard&logoColor=white"></a>
-  <a href="https://ko-fi.com/casablanque"><img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-support-ff5e5b?style=for-the-badge&logo=kofi&logoColor=white"></a>
+<p align="left">
+  <a href="https://casablanque.com"><img alt="cv" src="https://img.shields.io/badge/cv-casablanque.com-0d1117?style=flat-square"></a>
+  <a href="mailto:casablanque@proton.me"><img alt="reach me out" src="https://img.shields.io/badge/reach%20me%20out-casablanque%40proton.me-6d4aff?style=flat-square&logo=protonmail&logoColor=white"></a>
+  <a href="https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683"><img alt="PGP" src="https://img.shields.io/badge/PGP-0x75149683-2e7d32?style=flat-square&logo=gnuprivacyguard&logoColor=white"></a>
+  <a href="https://ko-fi.com/casablanque"><img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-support-ff5e5b?style=flat-square&logo=kofi&logoColor=white"></a>
 </p>
