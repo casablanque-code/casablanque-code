@@ -66,7 +66,6 @@ gpg --verify README.md.sig README.md
 ---
 
 <p align="left">
-  <a href="https://casablanque.com"><img alt="cv" src="https://img.shields.io/badge/cv-casablanque.com-0d1117?style=flat-square"></a>
   <a href="mailto:casablanque@proton.me"><img alt="reach me out" src="https://img.shields.io/badge/reach%20me%20out-casablanque%40proton.me-6d4aff?style=flat-square&logo=protonmail&logoColor=white"></a>
   <a href="https://keys.openpgp.org/search?q=2A49CD4AF95F76DF38FC1F9EBFB3563375149683"><img alt="PGP" src="https://img.shields.io/badge/PGP-0x75149683-2e7d32?style=flat-square&logo=gnuprivacyguard&logoColor=white"></a>
   <a href="https://ko-fi.com/casablanque"><img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-support-ff5e5b?style=flat-square&logo=kofi&logoColor=white"></a>
