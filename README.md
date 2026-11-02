@@ -1,6 +1,6 @@
 # Build and break things
 
-R&D | System Architect | Network Infra Engineer. 
+R&D | System Architect | Network Infra Engineer.  
 I build tools that check whether the obvious
 explanation is actually true, and a few systems that just got to work.
 
