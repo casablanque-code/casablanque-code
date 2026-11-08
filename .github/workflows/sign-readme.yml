@@ -3,36 +3,66 @@ name: sign readme
 on:
   push:
     branches: [main]
-    paths: [README.md]
-  workflow_dispatch: {}
+    paths:
+      - README.md
+  workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: sign-readme
+  cancel-in-progress: false
+
 jobs:
   sign:
     runs-on: ubuntu-latest
+
+    env:
+      PGP_FINGERPRINT: 2A49CD4AF95F76DF38FC1F9EBFB3563375149683
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Import PGP key
         env:
           PGP_PRIVATE_KEY: ${{ secrets.PGP_PRIVATE_KEY }}
-        run: echo "$PGP_PRIVATE_KEY" | gpg --batch --import
+        run: |
+          printf '%s' "$PGP_PRIVATE_KEY" | gpg --batch --import
 
-      - name: Sign README.md
+      - name: Verify signing key
+        run: |
+          gpg --batch --list-secret-keys "$PGP_FINGERPRINT"
+
+      - name: Sign README
         env:
           PGP_PASSPHRASE: ${{ secrets.PGP_PASSPHRASE }}
         run: |
-          gpg --batch --yes --pinentry-mode loopback \
-            --passphrase "$PGP_PASSPHRASE" \
-            --detach-sign --armor \
-            -o README.md.sig README.md
+          printf '%s' "$PGP_PASSPHRASE" | \
+            gpg --batch --yes \
+              --pinentry-mode loopback \
+              --passphrase-fd 0 \
+              --local-user "$PGP_FINGERPRINT" \
+              --detach-sign \
+              --armor \
+              --output README.md.sig \
+              README.md
+
+      - name: Verify signature
+        run: |
+          gpg --batch --verify README.md.sig README.md
 
       - name: Commit signature if changed
         run: |
-          git config user.name "sign-bot"
-          git config user.email "sign-bot@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add README.md.sig
-          git diff --cached --quiet || git commit -m "sign: README.md"
-          git push
+
+          if ! git diff --cached --quiet; then
+            git commit -m "sign: README.md"
+            git push
+          else
+            echo "Signature unchanged."
+          fi
