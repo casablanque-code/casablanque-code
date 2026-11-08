@@ -32,7 +32,7 @@ MQTT → ClickHouse → Grafana, one `docker compose up` and core stack running.
 
 Packets are evidence, not truth. Everything runs in the browser; PCAPs never leave your machine.
 
-[ospf](https://ospf.postmortem.casablanque.com/) · [dhcp](https://dhcp.postmortem.casablanque.com/) · [stp](https://stp.postmortem.casablanque.com/) · [dns](https://dns.postmortem.casablanque.com/)
+[OSPF](https://ospf.postmortem.casablanque.com/) · [DHCP](https://dhcp.postmortem.casablanque.com/) · [STP](https://stp.postmortem.casablanque.com/) · [DNS](https://dns.postmortem.casablanque.com/)
 
 ### Out in the wild
 
